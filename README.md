@@ -1,72 +1,189 @@
-🩺 BLW MediAssist – AI Medical Assistant
+<div align="center">
 
-BLW MediAssist is an interactive AI-style medical assistant web application that provides users with instant information about common diseases, symptoms, prevention methods, and treatments.
+# 🏥 BLW MediAssist
 
-The application simulates an AI healthcare assistant that helps users understand medical conditions through a simple and intuitive interface.
+### AI-Powered Medical Assistant Web Application
 
-🔗 Live Demo:
-https://jokerwor.github.io/BLW-MediAssist/
+An intelligent healthcare assistant that helps users analyze symptoms, explore diseases, access treatment information, and receive health tips through an interactive chatbot interface.
 
-🚀 Features
-🤖 AI Medical Assistant
+[🚀 Live Demo](https://jokerwor.github.io/BLW-MediAssist/)
 
-Simulates a conversational AI healthcare assistant
+![HTML](https://img.shields.io/badge/HTML-5-orange?logo=html5)
+![CSS](https://img.shields.io/badge/CSS-3-blue?logo=css3)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript)
+![GitHub Pages](https://img.shields.io/badge/Deployment-GitHub%20Pages-success)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-Provides instant medical information
+</div>
 
-Simple chatbot-like interaction
+---
 
-🩺 Disease Information System
+# 📖 Table of Contents
 
-Users can search diseases and get details such as:
+- Overview
+- Features
+- Screenshots
+- Tech Stack
+- Project Structure
+- Installation
+- Usage
+- Future Enhancements
+- Disclaimer
+- Author
 
-Description
+---
 
-Symptoms
+# 📌 Overview
 
-Causes
+BLW MediAssist is an AI-inspired medical assistant web application designed to provide quick healthcare information through an intuitive chatbot interface. Users can search diseases, analyze symptoms, learn treatments, discover preventive measures, and receive health & lifestyle recommendations.
 
-Treatment
+> **Note:** This project is built for educational purposes and does not replace professional medical advice.
 
-Common medicines
+---
 
-When to seek medical attention
+# ✨ Features
 
-📊 Symptom Analysis
+- 🤖 AI Medical Chatbot
+- 🔍 Disease Information Search
+- 🩺 Symptom Analysis
+- 💊 Treatment & Medication Details
+- ❤️ Health & Lifestyle Tips
+- 📱 Fully Responsive Design
+- ⚡ Fast Client-Side Performance
+- 🌐 GitHub Pages Deployment
 
-Users can describe symptoms and get information about possible conditions.
+---
 
-📱 Responsive UI
+# 📸 Screenshots
 
-Clean and modern interface
+## Home Page
 
-Mobile-friendly design
+> Add a screenshot here.
 
-Easy navigation
+```
+images/home.png
+```
 
-⚡ Fast Web Application
+## AI Medical Chat
 
-Lightweight frontend
+> Add a screenshot here.
 
-🛠️ Tech Stack
-Layer	Technology
-Frontend	HTML
-Styling	CSS
-Logic	JavaScript
-Data	JSON
-Runtime	Node.js
-Deployment	GitHub Pages
+```
+images/chatbot.png
+```
 
-🎯 Project Goals
+## Disease Search
 
-Demonstrate an AI-style healthcare assistant
+> Add a screenshot here.
 
-Provide quick access to health information
+```
+images/search.png
+```
 
-Showcase interactive web application development
+---
 
-Explore AI-inspired healthcare tools
+# 🛠 Tech Stack
 
-Instant response using JavaScript
+| Category | Technologies |
+|----------|--------------|
+| Frontend | HTML5, CSS3, JavaScript |
+| Styling | CSS, Tailwind CSS |
+| Data | JSON |
+| Deployment | GitHub Pages |
+| Version Control | Git & GitHub |
 
-No backend server required
+---
+
+# 📂 Project Structure
+
+```
+BLW-MediAssist
+│
+├── index.html
+├── style.css
+├── app.js
+├── diseases.json
+├── Logo.jpg
+├── package.json
+├── package-lock.json
+└── README.md
+```
+
+---
+
+# 🚀 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/Jokerwor/BLW-MediAssist.git
+```
+
+Navigate into the project
+
+```bash
+cd BLW-MediAssist
+```
+
+Open the project
+
+```bash
+Open index.html
+```
+
+Or simply visit the live website:
+
+**https://jokerwor.github.io/BLW-MediAssist/**
+
+---
+
+# 💡 Usage
+
+1. Open the application.
+2. Click **Start Consultation**.
+3. Enter a disease name or describe symptoms.
+4. View disease information, symptoms, causes, treatments, medicines, and prevention tips.
+5. Explore health & lifestyle recommendations.
+
+---
+
+# 🚀 Future Enhancements
+
+- OpenAI / Gemini API Integration
+- Voice Assistant
+- User Authentication
+- Chat History
+- Medical Report Analysis
+- Appointment Booking
+- Nearby Hospital Finder
+- Multi-language Support
+- Dark Mode
+- AI Health Risk Prediction
+
+---
+
+# ⚠️ Disclaimer
+
+BLW MediAssist is intended solely for educational and demonstration purposes.
+
+The information provided should **not** be considered professional medical advice, diagnosis, or treatment. Always consult a qualified healthcare professional regarding medical concerns.
+
+---
+
+# 👨‍💻 Author
+
+**Rishi Kumar Srivastav**
+
+GitHub: https://github.com/Jokerwor
+
+LinkedIn: *(Add your LinkedIn profile here)*
+
+---
+
+<div align="center">
+
+### ⭐ If you found this project helpful, don't forget to star the repository!
+
+Made with ❤️ by **Rishi Kumar Srivastav**
+
+</div>
