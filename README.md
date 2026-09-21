@@ -6,7 +6,7 @@
 
 An intelligent healthcare assistant that helps users analyze symptoms, explore diseases, access treatment information, and receive health tips through an interactive chatbot interface.
 
-[🚀 Live Demo](https://jokerwor.github.io/BLW-MediAssist/)
+**https://blw-mediassist.onrender.com/**
 
 ![HTML](https://img.shields.io/badge/HTML-5-orange?logo=html5)
 ![CSS](https://img.shields.io/badge/CSS-3-blue?logo=css3)
