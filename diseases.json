@@ -1,0 +1,3381 @@
+    {
+        "tuberculosis": {
+        "description": "Tuberculosis (TB) - Medical Information",
+        "treatment": "Antibiotics for 6-9 months; supportive care for symptoms.",
+        "medications": "Isoniazid (5 mg/kg daily, max 300 mg), Rifampin, Pyrazinamide, Ethambutol (first-line).",
+        "seekAttention": ["Monitor liver function; avoid if liver disease", "Risk of drug resistance is common", "Coughing up blood"]
+    },
+    "malaria": {
+        "description": "Malaria - Medical Information",
+        "treatment": "Antimalarial drugs; supportive care for symptoms.",
+        "medications": "Chloroquine (600 mg base initially, then 300 mg after 6-8 hrs, then 300 mg daily for 2 days), Artemisinin-based combination therapy (ACT).",
+        "seekAttention": ["Some drugs not safe for pregnant women", "Resistance is a concern in India", "High fever and chills"]
+    },
+    "dengue": {
+        "description": "Dengue Fever - Medical Information",
+        "treatment": "Supportive care; hydration, pain relief. No specific antiviral.",
+        "medications": "Acetaminophen for pain (500-1000 mg every 4-6 hrs, max 4g/day).",
+        "seekAttention": ["Avoid aspirin and NSAIDs (bleeding risk)", "Monitor platelet count", "Severe abdominal pain or vomiting"]
+    },
+    "chikungunya": {
+        "description": "Chikungunya - Medical Information",
+        "treatment": "Supportive care; pain management for severe joint pain.",
+        "medications": "Acetaminophen for pain.",
+        "seekAttention": ["Persistent or severe joint pain", "Chronic arthritis is possible", "High fever"]
+    },
+    "typhoid": {
+        "description": "Typhoid Fever - Medical Information",
+        "treatment": "Antibiotics; hydration is critical.",
+        "medications": "Ciprofloxacin (500 mg twice daily for 7-10 days), Azithromycin.",
+        "seekAttention": ["Fluoroquinolone resistance is common in India", "High fever", "Abdominal pain"]
+    },
+    "hepatitis a": {
+        "description": "Hepatitis A - Medical Information",
+        "treatment": "Supportive care; rest and hydration. No specific antiviral.",
+        "medications": "None.",
+        "seekAttention": ["Avoid alcohol to allow the liver to rest", "Jaundice (yellowing of skin/eyes)"]
+    },
+    "hepatitis b": {
+        "description": "Hepatitis B - Medical Information",
+        "treatment": "Antivirals for chronic cases; supportive care for acute.",
+        "medications": "Tenofovir (300 mg daily), Entecavir.",
+        "seekAttention": ["Monitor liver function regularly", "Risk of chronic liver disease and cancer"]
+    },
+    "hepatitis c": {
+        "description": "Hepatitis C - Medical Information",
+        "treatment": "Direct-acting antivirals (DAAs) offer high cure rates.",
+        "medications": "Sofosbuvir (400 mg daily for 12 weeks), Ledipasvir.",
+        "seekAttention": ["Liver function monitoring is essential", "High cure rates with modern treatment"]
+    },
+    "japanese encephalitis": {
+        "description": "Japanese Encephalitis - Medical Information",
+        "treatment": "Supportive care in a hospital setting; no specific antiviral.",
+        "medications": "None.",
+        "seekAttention": ["Requires neurological support", "High fever, headache, confusion are emergency signs"]
+    },
+    "meningitis": {
+        "description": "Meningitis - Medical Information",
+        "treatment": "Urgent antibiotics for bacterial meningitis; antivirals for viral.",
+        "medications": "Ceftriaxone (2g IV every 12 hrs for bacterial).",
+        "seekAttention": ["This is a medical emergency", "Stiff neck, severe headache, and fever require immediate care", "Risk of hearing loss"]
+    },
+    "pneumonia": {
+        "description": "Pneumonia - Medical Information",
+        "treatment": "Antibiotics for bacterial pneumonia; respiratory support.",
+        "medications": "Amoxicillin (500 mg every 8 hrs).",
+        "seekAttention": ["Hydration is critical", "Difficulty breathing or chest pain"]
+    },
+    "bronchitis": {
+        "description": "Bronchitis - Medical Information",
+        "treatment": "Symptomatic relief; antibiotics only if bacterial.",
+        "medications": "Amoxicillin (500 mg every 8 hrs if bacterial).",
+        "seekAttention": ["Chronic cases need long-term management", "Wheezing or shortness of breath"]
+    },
+    "influenza": {
+        "description": "Influenza (Flu) - Medical Information",
+        "treatment": "Antivirals and supportive care (rest, fluids).",
+        "medications": "Oseltamivir (75 mg twice daily for 5 days).",
+        "seekAttention": ["Start antiviral medication early for best results", "High-risk groups should seek care promptly"]
+    },
+    "common cold": {
+        "description": "Common Cold - Medical Information",
+        "treatment": "Symptomatic relief: rest, hydration, and over-the-counter medications.",
+        "medications": "Acetaminophen (500-1000 mg every 4-6 hrs).",
+        "seekAttention": ["Supportive care is key; antibiotics are not effective", "High fever or persistent symptoms"]
+    },
+    "measles": {
+        "description": "Measles - Medical Information",
+        "treatment": "Supportive care, hydration, and Vitamin A supplementation.",
+        "medications": "Vitamin A (200,000 IU for 2 days).",
+        "seekAttention": ["Highly contagious, isolation is necessary", "High fever and characteristic rash"]
+    },
+    "mumps": {
+        "description": "Mumps - Medical Information",
+        "treatment": "Supportive care: rest, fluids, and pain relief.",
+        "medications": "No specific medication.",
+        "seekAttention": ["Isolation is required to prevent spread", "Swelling of salivary glands"]
+    },
+    "rubella": {
+        "description": "Rubella - Medical Information",
+        "treatment": "Supportive care.",
+        "medications": "No specific medication.",
+        "seekAttention": ["Extremely dangerous for pregnant women; can cause birth defects", "Rash and mild fever"]
+    },
+    "chickenpox": {
+        "description": "Chickenpox - Medical Information",
+        "treatment": "Supportive care; antivirals for high-risk individuals.",
+        "medications": "Acyclovir (800 mg 5 times daily for 5 days).",
+        "seekAttention": ["Avoid aspirin, especially in children (risk of Reye's syndrome)", "Itchy blister-like rash"]
+    },
+    "smallpox": {
+        "description": "Smallpox - Medical Information",
+        "treatment": "No current cases; the disease has been eradicated globally.",
+        "medications": "N/A.",
+        "seekAttention": ["Eradicated."]
+    },
+    "polio": {
+        "description": "Polio - Medical Information",
+        "treatment": "Supportive care; no cure.",
+        "medications": "No specific medication.",
+        "seekAttention": ["Vaccination is the only effective prevention", "Can cause paralysis"]
+    },
+    "tetanus": {
+        "description": "Tetanus - Medical Information",
+        "treatment": "Tetanus antitoxin, antibiotics, and wound care.",
+        "medications": "Penicillin (10-20 million units daily).",
+        "seekAttention": ["Requires immediate medical care", "Proper wound care is crucial"]
+    },
+    "diphtheria": {
+        "description": "Diphtheria - Medical Information",
+        "treatment": "Diphtheria antitoxin and antibiotics.",
+        "medications": "Erythromycin (500 mg 4 times daily for 14 days).",
+        "seekAttention": ["Isolation is necessary", "Can cause a thick covering in the back of the throat"]
+    },
+    "pertussis": {
+        "description": "Pertussis (Whooping Cough) - Medical Information",
+        "treatment": "Antibiotics.",
+        "medications": "Azithromycin (500 mg on day 1, then 250 mg on days 2-5).",
+        "seekAttention": ["Highly contagious; isolation needed", "Severe coughing spells"]
+    },
+    "scarlet fever": {
+        "description": "Scarlet Fever - Medical Information",
+        "treatment": "Antibiotics to treat the underlying strep infection.",
+        "medications": "Penicillin (500 mg every 6 hrs for 10 days).",
+        "seekAttention": ["Important to treat the strep infection to prevent complications", "Bright red rash"]
+    },
+    "rheumatic fever": {
+        "description": "Rheumatic Fever - Medical Information",
+        "treatment": "Antibiotics and anti-inflammatory medications.",
+        "medications": "Aspirin (100 mg/kg daily).",
+        "seekAttention": ["Requires heart monitoring", "Can cause permanent heart damage"]
+    },
+    "sepsis": {
+        "description": "Sepsis - Medical Information",
+        "treatment": "IV antibiotics and supportive care in a hospital.",
+        "medications": "Broad-spectrum antibiotics.",
+        "seekAttention": ["This is a life-threatening medical emergency", "Can lead to organ damage"]
+    },
+    "cellulitis": {
+        "description": "Cellulitis - Medical Information",
+        "treatment": "Antibiotics.",
+        "medications": "Cephalexin (500 mg every 6 hrs).",
+        "seekAttention": ["Elevate the affected limb to reduce swelling", "Red, swollen, painful skin"]
+    },
+    "impetigo": {
+        "description": "Impetigo - Medical Information",
+        "treatment": "Topical or oral antibiotics.",
+        "medications": "Mupirocin (apply 3 times daily for 5 days).",
+        "seekAttention": ["Highly contagious", "Red sores that burst and form a honey-colored crust"]
+    },
+    "boils": {
+        "description": "Boils (Furuncles) - Medical Information",
+        "treatment": "Warm compresses to encourage drainage; antibiotics if severe.",
+        "medications": "Topical Mupirocin.",
+        "seekAttention": ["Do not squeeze boils", "Can lead to a more serious infection"]
+    },
+    "carbuncles": {
+        "description": "Carbuncles - Medical Information",
+        "treatment": "Medical drainage and antibiotics.",
+        "medications": "Dicloxacillin (500 mg every 6 hrs).",
+        "seekAttention": ["A cluster of boils; more serious", "Higher risk in people with diabetes"]
+    },
+    "filariasis": {
+        "description": "Filariasis - Medical Information",
+        "treatment": "Antifilarial drugs; surgery for resulting lymphedema.",
+        "medications": "Diethylcarbamazine (6 mg/kg daily for 12 days).",
+        "seekAttention": ["Not recommended during pregnancy", "Can cause severe swelling (elephantiasis)"]
+    },
+    "leishmaniasis": {
+        "description": "Leishmaniasis (Kala-azar) - Medical Information",
+        "treatment": "Antileishmanial drugs.",
+        "medications": "Amphotericin B (1 mg/kg IV daily for 15-20 days).",
+        "seekAttention": ["Requires kidney function monitoring", "Can be fatal if untreated"]
+    },
+    "plague": {
+        "description": "Plague - Medical Information",
+        "treatment": "Urgent antibiotic treatment.",
+        "medications": "Streptomycin (30 mg/kg daily).",
+        "seekAttention": ["Requires isolation to prevent spread", "A serious bacterial infection"]
+    },
+    "yellow fever": {
+        "description": "Yellow Fever - Medical Information",
+        "treatment": "Supportive care in a hospital; no specific antiviral.",
+        "medications": "None.",
+        "seekAttention": ["Vaccine can have side effects", "Can cause liver damage and bleeding"]
+    },
+    "zika": {
+        "description": "Zika Virus - Medical Information",
+        "treatment": "Supportive care: rest, fluids.",
+        "medications": "No specific medication.",
+        "seekAttention": ["Can cause severe birth defects if contracted during pregnancy", "Mild symptoms in most people"]
+    },
+    "west nile": {
+        "description": "West Nile Fever - Medical Information",
+        "treatment": "Supportive care.",
+        "medications": "No specific medication.",
+        "seekAttention": ["Small risk of serious neurological disease", "Most people have no symptoms"]
+    },
+    "crimean-congo hemorrhagic fever": {
+        "description": "Crimean-Congo Hemorrhagic Fever - Medical Information",
+        "treatment": "Supportive care, possibly Ribavirin.",
+        "medications": "Ribavirin (30 mg/kg initial dose).",
+        "seekAttention": ["High risk of hemorrhage (bleeding)", "Requires isolation"]
+    },
+    "kyasanur forest disease": {
+        "description": "Kyasanur Forest Disease - Medical Information",
+        "treatment": "Supportive care.",
+        "medications": "No specific medication.",
+        "seekAttention": ["High risk for forest workers in endemic areas", "Can cause bleeding"]
+    },
+    "scrub typhus": {
+        "description": "Scrub Typhus - Medical Information",
+        "treatment": "Antibiotics.",
+        "medications": "Doxycycline (100 mg twice daily for 7 days).",
+        "seekAttention": ["Early treatment is crucial for recovery", "Fever, headache, body aches"]
+    },
+    "cholera": {
+        "description": "Cholera - Medical Information",
+        "treatment": "Immediate rehydration (oral or IV), antibiotics.",
+        "medications": "Doxycycline (300 mg single dose).",
+        "seekAttention": ["Severe dehydration can be fatal", "Watery diarrhea"]
+    },
+    "diarrhea medical": {
+        "description": "Diarrhea - Medical Information",
+        "treatment": "Rehydration is the main treatment.",
+        "medications": "Oral Rehydration Solutions (ORS).",
+        "seekAttention": ["Dehydration is the primary danger, especially in children", "Persistent or bloody diarrhea"]
+    },
+    "dysentery": {
+        "description": "Dysentery - Medical Information",
+        "treatment": "Antibiotics and rehydration.",
+        "medications": "Ciprofloxacin (500 mg twice daily).",
+        "seekAttention": ["Characterized by bloody stools", "Requires medical attention"]
+    },
+    "gastroenteritis": {
+        "description": "Gastroenteritis - Medical Information",
+        "treatment": "Rehydration and supportive care.",
+        "medications": "Antiemetics if needed to control vomiting.",
+        "seekAttention": ["Risk of dehydration", "Vomiting and diarrhea"]
+    },
+    "food poisoning": {
+        "description": "Food Poisoning - Medical Information",
+        "treatment": "Supportive care, primarily hydration.",
+        "medications": "No specific medication in most cases.",
+        "seekAttention": ["Severe vomiting or diarrhea", "Signs of dehydration"]
+    },
+    "giardiasis": {
+        "description": "Giardiasis - Medical Information",
+        "treatment": "Antiparasitic medications.",
+        "medications": "Metronidazole (250 mg 3 times daily for 5 days).",
+        "seekAttention": ["Avoid alcohol while taking Metronidazole", "Stomach cramps, bloating, diarrhea"]
+    },
+    "amoebiasis": {
+        "description": "Amoebiasis - Medical Information",
+        "treatment": "Antiparasitic medications.",
+        "medications": "Metronidazole (500-750 mg 3 times daily for 5-10 days).",
+        "seekAttention": ["Avoid alcohol during treatment", "Can lead to liver abscess"]
+    },
+    "cryptosporidiosis": {
+        "description": "Cryptosporidiosis - Medical Information",
+        "treatment": "Supportive care; Nitazoxanide may be used.",
+        "medications": "Nitazoxanide (500 mg twice daily for 3 days).",
+        "seekAttention": ["More severe in immunocompromised individuals", "Watery diarrhea"]
+    },
+    "rotavirus": {
+        "description": "Rotavirus Infection - Medical Information",
+        "treatment": "Rehydration therapy.",
+        "medications": "No specific antiviral.",
+        "seekAttention": ["Vaccination is key for prevention", "Severe diarrhea in young children"]
+    },
+    "norovirus": {
+        "description": "Norovirus Infection - Medical Information",
+        "treatment": "Supportive care, focus on hydration.",
+        "medications": "No specific antiviral.",
+        "seekAttention": ["Antibiotics are ineffective", "High risk of dehydration in children and elderly"]
+    },
+    "salmonellosis": {
+        "description": "Salmonellosis - Medical Information",
+        "treatment": "Rehydration; antibiotics for severe cases.",
+        "medications": "Azithromycin (500 mg daily for 3 days) or Ciprofloxacin.",
+        "seekAttention": ["Antibiotics not for mild cases to avoid creating a carrier state", "Severe diarrhea, fever"]
+    },
+    "shigellosis": {
+        "description": "Shigellosis - Medical Information",
+        "treatment": "Antibiotics and rehydration.",
+        "medications": "Ciprofloxacin (500 mg twice daily for 3 days).",
+        "seekAttention": ["Highly contagious", "Monitor for complications like HUS (hemolytic uremic syndrome)"]
+    },
+    "campylobacter": {
+        "description": "Campylobacter Infection - Medical Information",
+        "treatment": "Supportive care; antibiotics if severe.",
+        "medications": "Azithromycin (500 mg daily for 3 days).",
+        "seekAttention": ["Rare risk of Guillain-Barré syndrome", "Avoid in pregnancy"]
+    },
+    "e. coli": {
+        "description": "E. coli Infection - Medical Information",
+        "treatment": "Supportive care; antibiotics are rarely used.",
+        "medications": "No routine antibiotics.",
+        "seekAttention": ["Antibiotics may worsen risk of HUS", "Monitor kidney function with severe strains"]
+    },
+    "clostridium difficile": {
+        "description": "Clostridium difficile (C. diff) Infection - Medical Information",
+        "treatment": "Specific antibiotics; fecal transplant for recurrent cases.",
+        "medications": "Vancomycin (125 mg 4 times daily for 10 days) or Fidaxomicin.",
+        "seekAttention": ["High risk of recurrence", "Requires isolation in hospitals"]
+    },
+    "intestinal worms": {
+        "description": "Intestinal Worms - Medical Information",
+        "treatment": "Antiparasitic drugs; iron for associated anemia.",
+        "medications": "Albendazole (400 mg single dose).",
+        "seekAttention": ["Reinfection is common; repeat treatment may be needed", "Mass deworming programs are important"]
+    },
+    "asthma": {
+        "description": "Asthma - Medical Information",
+        "treatment": "Inhalers (rescue and controller) and anti-inflammatory drugs.",
+        "medications": "Albuterol (rescue inhaler: 2 puffs every 4-6 hrs as needed), Inhaled corticosteroids (controller).",
+        "seekAttention": ["Do not overuse rescue inhaler", "Monitor for worsening symptoms (exacerbations)"]
+    },
+    "copd": {
+        "description": "Chronic Obstructive Pulmonary Disease (COPD) - Medical Information",
+        "treatment": "Bronchodilators, oxygen therapy, pulmonary rehabilitation.",
+        "medications": "Tiotropium (18 mcg inhaled daily).",
+        "seekAttention": ["Damage is irreversible; avoid irritants like smoke", "Progressive disease"]
+    },
+    "lung cancer": {
+        "description": "Lung Cancer - Medical Information",
+        "treatment": "Surgery, chemotherapy, radiation, targeted therapy.",
+        "medications": "Chemotherapy agents like Cisplatin.",
+        "seekAttention": ["Early detection is key", "Smoking is the primary cause"]
+    },
+    "allergic rhinitis": {
+        "description": "Allergic Rhinitis (Hay Fever) - Medical Information",
+        "treatment": "Antihistamines, nasal corticosteroid sprays.",
+        "medications": "Loratadine (10 mg daily).",
+        "seekAttention": ["Chronic symptoms can lead to sinusitis", "Identify and avoid triggers"]
+    },
+    "sinusitis": {
+        "description": "Sinusitis - Medical Information",
+        "treatment": "Decongestants; antibiotics if bacterial.",
+        "medications": "Amoxicillin (500 mg every 8 hrs for 10 days if bacterial).",
+        "seekAttention": ["Chronic sinusitis may require a specialist", "Facial pain, pressure, congestion"]
+    },
+    "pharyngitis": {
+        "description": "Pharyngitis (Sore Throat) - Medical Information",
+        "treatment": "Supportive care; antibiotics if caused by strep bacteria.",
+        "medications": "Penicillin (500 mg every 6 hrs for 10 days for strep).",
+        "seekAttention": ["Important to test for strep to prevent complications like rheumatic fever", "Severe sore throat"]
+    },
+    "laryngitis": {
+        "description": "Laryngitis - Medical Information",
+        "treatment": "Voice rest and hydration.",
+        "medications": "No specific medication.",
+        "seekAttention": ["Persistent hoarseness could indicate a more serious condition", "Loss of voice"]
+    },
+    "tonsillitis": {
+        "description": "Tonsillitis - Medical Information",
+        "treatment": "Antibiotics if bacterial; surgery (tonsillectomy) for recurrent cases.",
+        "medications": "Amoxicillin (500 mg every 8 hrs).",
+        "seekAttention": ["Risk of a peritonsillar abscess", "Swollen tonsils, sore throat"]
+    },
+    "pneumothorax": {
+        "description": "Pneumothorax - Medical Information",
+        "treatment": "Observation for small collapses; chest tube for larger ones.",
+        "medications": "No specific medication.",
+        "seekAttention": ["A tension pneumothorax is a medical emergency", "Sudden chest pain and shortness of breath"]
+    },
+    "pleuritis": {
+        "description": "Pleuritis (Pleurisy) - Medical Information",
+        "treatment": "Pain relief and treating the underlying cause.",
+        "medications": "Ibuprofen (400-600 mg every 6-8 hrs).",
+        "seekAttention": ["Rule out serious conditions like pulmonary embolism", "Sharp chest pain when breathing"]
+    },
+    "pulmonary embolism": {
+        "description": "Pulmonary Embolism - Medical Information",
+        "treatment": "Anticoagulants (blood thinners), thrombolytics (clot-busters).",
+        "medications": "Heparin (IV).",
+        "seekAttention": ["This is a life-threatening condition", "Sudden shortness of breath and chest pain"]
+    },
+    "lung abscess": {
+        "description": "Lung Abscess - Medical Information",
+        "treatment": "Long-term antibiotics, sometimes drainage.",
+        "medications": "Clindamycin (600 mg IV every 8 hrs).",
+        "seekAttention": ["Higher risk in those prone to aspiration", "Cough with foul-smelling sputum"]
+    },
+    "interstitial lung disease": {
+        "description": "Interstitial Lung Disease - Medical Information",
+        "treatment": "Corticosteroids, oxygen therapy.",
+        "medications": "Prednisone (0.5-1 mg/kg daily).",
+        "seekAttention": ["Progressive disease; lung transplant may be an option", "Scarring of lung tissue"]
+    },
+    "sarcoidosis": {
+        "description": "Sarcoidosis - Medical Information",
+        "treatment": "Corticosteroids if symptomatic.",
+        "medications": "Prednisone (20-40 mg daily).",
+        "seekAttention": ["May resolve spontaneously or become chronic", "Inflammatory cell clusters (granulomas)"]
+    },
+    "hypertension": {
+        "description": "Hypertension (High Blood Pressure)",
+        "treatment": "Lifestyle changes (DASH diet, exercise, low sodium) and antihypertensive medications.",
+        "medications": "Amlodipine (5-10 mg daily), Lisinopril, Metoprolol.",
+        "seekAttention": ["Monitor blood pressure regularly", "Major risk factor for stroke and heart attack"]
+    },
+    "heart attack": {
+        "description": "Heart Attack (Myocardial Infarction)",
+        "treatment": "Immediate emergency care: aspirin, nitroglycerin, angioplasty, clot-busters.",
+        "medications": "Aspirin (81 mg daily post-event for prevention).",
+        "seekAttention": ["Time-critical medical emergency; call for help immediately", "Chest pain, shortness of breath, pain in arm/jaw"]
+    },
+    "stroke": {
+        "description": "Stroke - Medical Information",
+        "treatment": "tPA (clot-buster) for ischemic stroke; surgery for hemorrhagic.",
+        "medications": "Aspirin (81-325 mg daily for prevention).",
+        "seekAttention": ["Recognize FAST symptoms (Face, Arms, Speech, Time)", "Medical emergency"]
+    },
+    "heart failure": {
+        "description": "Heart Failure - Medical Information",
+        "treatment": "Diuretics, ACE inhibitors, beta-blockers.",
+        "medications": "Furosemide (20-40 mg daily).",
+        "seekAttention": ["Monitor daily weight for fluid retention", "Heart cannot pump effectively"]
+    },
+    "angina pectoris": {
+        "description": "Angina Pectoris - Medical Information",
+        "treatment": "Nitrates, beta-blockers, lifestyle changes.",
+        "medications": "Nitroglycerin (0.4 mg sublingual as needed for chest pain).",
+        "seekAttention": ["Chest pain that could indicate an impending heart attack", "Caused by reduced blood flow to the heart"]
+    },
+    "arrhythmia": {
+        "description": "Arrhythmias - Medical Information",
+        "treatment": "Antiarrhythmic drugs, medical procedures like ablation, pacemakers.",
+        "medications": "Amiodarone (200 mg daily).",
+        "seekAttention": ["Monitor heart rate and rhythm", "Can have serious side effects like lung toxicity"]
+    },
+    "atrial fibrillation": {
+        "description": "Atrial Fibrillation (AFib) - Medical Information",
+        "treatment": "Anticoagulants (blood thinners) to prevent stroke, rate/rhythm control drugs.",
+        "medications": "Warfarin (dosage adjusted to INR 2-3).",
+        "seekAttention": ["High risk of stroke", "Irregular, often rapid heartbeat"]
+    },
+    "ventricular tachycardia": {
+        "description": "Ventricular Tachycardia - Medical Information",
+        "treatment": "Immediate defibrillation for unstable patients, antiarrhythmics.",
+        "medications": "Lidocaine (IV bolus 1-1.5 mg/kg).",
+        "seekAttention": ["Life-threatening medical emergency", "Rapid heartbeat originating in the ventricles"]
+    },
+    "heart block": {
+        "description": "Heart Block - Medical Information",
+        "treatment": "Pacemaker insertion.",
+        "medications": "No specific medications to cure it.",
+        "seekAttention": ["Risk of fainting (syncope)", "Disruption of the heart's electrical signals"]
+    },
+    "cardiomyopathy": {
+        "description": "Cardiomyopathy - Medical Information",
+        "treatment": "Treating the underlying cause, medications, implanted devices.",
+        "medications": "ACE inhibitors like Enalapril (10-20 mg twice daily).",
+        "seekAttention": ["Genetic counseling may be advised", "Disease of the heart muscle"]
+    },
+    "valvular heart disease": {
+        "description": "Valvular Heart Disease - Medical Information",
+        "treatment": "Medications to manage symptoms; valve repair or replacement surgery.",
+        "medications": "Varies based on the specific valve and problem.",
+        "seekAttention": ["Risk of endocarditis (heart infection)", "Damage to one or more of the heart's valves"]
+    },
+    "mitral valve prolapse": {
+        "description": "Mitral Valve Prolapse - Medical Information",
+        "treatment": "Usually no treatment needed; beta-blockers for symptoms.",
+        "medications": "Propranolol (10-40 mg as needed).",
+        "seekAttention": ["Complications are rare but possible", "Heart valve improperly closes"]
+    },
+    "aortic stenosis": {
+        "description": "Aortic Stenosis - Medical Information",
+        "treatment": "Aortic valve replacement surgery.",
+        "medications": "No medications can cure it, but statins may slow progression.",
+        "seekAttention": ["Surgery is needed once symptoms develop (e.g., fainting)", "Narrowing of the aortic valve opening"]
+    },
+    "deep vein thrombosis": {
+        "description": "Deep Vein Thrombosis (DVT) - Medical Information",
+        "treatment": "Anticoagulants (blood thinners).",
+        "medications": "Apixaban (10 mg twice daily for 7 days).",
+        "seekAttention": ["High risk of the clot traveling to the lungs (Pulmonary Embolism)", "Blood clot in a deep vein"]
+    },
+    "varicose veins": {
+        "description": "Varicose Veins - Medical Information",
+        "treatment": "Compression stockings, lifestyle changes, surgical procedures.",
+        "medications": "No specific medications.",
+        "seekAttention": ["Can lead to skin ulcers if severe", "Enlarged, twisted veins"]
+    },
+    "peripheral artery disease": {
+        "description": "Peripheral Artery Disease (PAD) - Medical Information",
+        "treatment": "Lifestyle changes (walking program), statins, antiplatelet drugs.",
+        "medications": "Cilostazol (100 mg twice daily).",
+        "seekAttention": ["Increased risk of amputation if untreated", "Narrowed arteries reducing blood flow to limbs"]
+    },
+    "aneurysm": {
+        "description": "Aneurysm - Medical Information",
+        "treatment": "Monitoring for small aneurysms; surgery for large or growing ones.",
+        "medications": "Blood pressure medications to reduce stress on the artery wall.",
+        "seekAttention": ["A ruptured aneurysm is a life-threatening emergency", "Bulge in a blood vessel wall"]
+    },
+    "diabetes mellitus type 1": {
+        "description": "Diabetes Mellitus Type 1 - Medical Information",
+        "treatment": "Insulin therapy; blood sugar monitoring.",
+        "medications": "Insulin (e.g., rapid-acting like Lispro, 0.5-1 unit/kg/day total).",
+        "seekAttention": ["Never stop insulin without medical advice", "High risk of diabetic ketoacidosis if insulin is missed"]
+    },
+    "diabetes mellitus type 2": {
+        "description": "Diabetes Mellitus Type 2 - Medical Information",
+        "treatment": "Lifestyle changes, oral medications, and insulin if needed.",
+        "medications": "Metformin (500-1000 mg twice daily).",
+        "seekAttention": ["Lactic acidosis is a rare but serious side effect of Metformin", "Monitor kidney function"]
+    },
+    "gestational diabetes": {
+        "description": "Gestational Diabetes - Medical Information",
+        "treatment": "Diet, exercise, and insulin if blood sugar remains uncontrolled.",
+        "medications": "Insulin if needed (dosage varies).",
+        "seekAttention": ["Resolves after delivery but increases future risk of Type 2 diabetes", "Monitor fetal growth"]
+    },
+    "prediabetes": {
+        "description": "Prediabetes - Medical Information",
+        "treatment": "Intensive lifestyle intervention (diet and exercise).",
+        "medications": "Metformin (850 mg daily) may be prescribed for high-risk individuals.",
+        "seekAttention": ["Can progress to Type 2 diabetes if lifestyle changes are not made", "Regular screening is important"]
+    },
+    "hypothyroidism": {
+        "description": "Hypothyroidism - Medical Information",
+        "treatment": "Thyroid hormone replacement therapy.",
+        "medications": "Levothyroxine (1.6 mcg/kg daily).",
+        "seekAttention": ["Treatment is typically lifelong", "Requires regular TSH blood tests to monitor dosage"]
+    },
+    "hyperthyroidism": {
+        "description": "Hyperthyroidism - Medical Information",
+        "treatment": "Antithyroid drugs, radioactive iodine, or surgery.",
+        "medications": "Methimazole (10-20 mg daily).",
+        "seekAttention": ["Thyroid storm is a life-threatening complication", "Monitor for liver issues"]
+    },
+    "goiter": {
+        "description": "Goiter - Medical Information",
+        "treatment": "Treating the underlying cause (e.g., iodine deficiency, hypothyroidism).",
+        "medications": "Levothyroxine if caused by hypothyroidism.",
+        "seekAttention": ["A large goiter can cause breathing or swallowing difficulties", "Enlarged thyroid gland"]
+    },
+    "thyroid nodules": {
+        "description": "Thyroid Nodules - Medical Information",
+        "treatment": "Monitoring, biopsy to check for cancer, or surgery.",
+        "medications": "None for routine treatment.",
+        "seekAttention": ["Most nodules are benign, but a biopsy is needed to rule out cancer", "Abnormal growths on the thyroid"]
+    },
+    "thyroid cancer": {
+        "description": "Thyroid Cancer - Medical Information",
+        "treatment": "Surgery, followed by radioactive iodine therapy.",
+        "medications": "Radioiodine therapy (dosage varies).",
+        "seekAttention": ["Prognosis is generally good for most types", "A lump in the neck, voice changes"]
+    },
+    "obesity": {
+        "description": "Obesity - Medical Information",
+        "treatment": "Diet and exercise, behavior modification, bariatric surgery.",
+        "medications": "Orlistat, Liraglutide, Semaglutide.",
+        "seekAttention": ["Associated with many chronic diseases (e.g., diabetes, heart disease)", "Requires long-term management"]
+    },
+    "anorexia nervosa": {
+        "description": "Anorexia Nervosa - Medical Information",
+        "treatment": "Psychotherapy, nutritional counseling, hospitalization for severe cases.",
+        "medications": "None for routine treatment, antidepressants for co-occurring mood disorders.",
+        "seekAttention": ["Can be life-threatening", "Low body weight, distorted body image"]
+    },
+    "bulimia nervosa": {
+        "description": "Bulimia Nervosa - Medical Information",
+        "treatment": "Psychotherapy and nutritional counseling.",
+        "medications": "Fluoxetine (Prozac) is FDA-approved for bulimia.",
+        "seekAttention": ["Frequent purging, binge eating", "Can lead to dental and electrolyte problems"]
+    },
+    "anemia": {
+        "description": "Anemia - Medical Information",
+        "treatment": "Iron or vitamin supplements, treating the underlying cause.",
+        "medications": "Ferrous sulfate (325 mg daily).",
+        "seekAttention": ["Fatigue, pallor, weakness", "May be a symptom of a more serious condition"]
+    },
+    "iron deficiency anemia": {
+        "description": "Iron Deficiency Anemia - Medical Information",
+        "treatment": "Iron supplementation and dietary changes.",
+        "medications": "Ferrous sulfate (325 mg daily).",
+        "seekAttention": ["Most common type of anemia", "Can be caused by chronic blood loss"]
+    },
+    "vitamin b12 deficiency": {
+        "description": "Vitamin B12 Deficiency - Medical Information",
+        "treatment": "Vitamin B12 supplements (oral or injections).",
+        "medications": "Cyanocobalamin (1000 mcg daily).",
+        "seekAttention": ["Can cause neurological symptoms", "Often due to poor absorption"]
+    },
+    "folate deficiency": {
+        "description": "Folate Deficiency - Medical Information",
+        "treatment": "Folic acid supplements.",
+        "medications": "Folic acid (1-5 mg daily).",
+        "seekAttention": ["Important for women of childbearing age to prevent neural tube defects", "Megaloblastic anemia"]
+    },
+    "hemophilia": {
+        "description": "Hemophilia - Medical Information",
+        "treatment": "Replacement of missing clotting factors.",
+        "medications": "Recombinant factor VIII or IX.",
+        "seekAttention": ["Genetic disorder", "Risk of spontaneous bleeding"]
+    },
+    "leukemia": {
+        "description": "Leukemia - Medical Information",
+        "treatment": "Chemotherapy, radiation, bone marrow transplant.",
+        "medications": "Varies by type (e.g., Imatinib for CML).",
+        "seekAttention": ["Risk of infections and bleeding", "Cancer of the blood-forming tissues"]
+    },
+    "lymphoma": {
+        "description": "Lymphoma - Medical Information",
+        "treatment": "Chemotherapy, radiation, immunotherapy.",
+        "medications": "Rituximab (for non-Hodgkin lymphoma).",
+        "seekAttention": ["Swollen lymph nodes, fever, night sweats"]
+    },
+    "multiple myeloma": {
+        "description": "Multiple Myeloma - Medical Information",
+        "treatment": "Chemotherapy, stem cell transplant.",
+        "medications": "Bortezomib (1.3 mg/m2 IV).",
+        "seekAttention": ["Cancer of plasma cells", "Bone pain, hypercalcemia"]
+    },
+    "thrombocytopenia": {
+        "description": "Thrombocytopenia - Medical Information",
+        "treatment": "Treating the underlying cause; corticosteroids.",
+        "medications": "Prednisone (1 mg/kg daily).",
+        "seekAttention": ["Easy bruising and bleeding", "Low platelet count"]
+    },
+    "gout": {
+        "description": "Gout - Medical Information",
+        "treatment": "NSAIDs for acute attacks; allopurinol for prevention.",
+        "medications": "Allopurinol (100-300 mg daily).",
+        "seekAttention": ["High risk of kidney stones", "Painful arthritis caused by uric acid crystals"]
+    },
+    "osteoarthritis": {
+        "description": "Osteoarthritis - Medical Information",
+        "treatment": "Pain relief, physical therapy, joint replacement surgery.",
+        "medications": "Acetaminophen (up to 4g/day) or NSAIDs.",
+        "seekAttention": ["Most common form of arthritis", "Pain and stiffness in joints"]
+    },
+    "rheumatoid arthritis": {
+        "description": "Rheumatoid Arthritis - Medical Information",
+        "treatment": "DMARDs (disease-modifying antirheumatic drugs), biologics.",
+        "medications": "Methotrexate (7.5-25 mg once weekly).",
+        "seekAttention": ["Autoimmune disease", "Symmetric joint pain and swelling"]
+    },
+    "lupus": {
+        "description": "Lupus - Medical Information",
+        "treatment": "Corticosteroids, immunosuppressants.",
+        "medications": "Hydroxychloroquine (200 mg twice daily).",
+        "seekAttention": ["Complex autoimmune disease affecting multiple organs", "Butterfly-shaped rash on the face"]
+    },
+    "fibromyalgia": {
+        "description": "Fibromyalgia - Medical Information",
+        "treatment": "Medications to reduce pain, exercise, stress management.",
+        "medications": "Pregabalin (Lyrica), Duloxetine (Cymbalta).",
+        "seekAttention": ["Widespread body pain, fatigue, sleep disturbances", "No specific lab test for diagnosis"]
+    },
+    "osteoporosis": {
+        "description": "Osteoporosis - Medical Information",
+        "treatment": "Calcium and Vitamin D supplements, bisphosphonates.",
+        "medications": "Alendronate (70 mg once weekly).",
+        "seekAttention": ["Increased risk of fractures", "Loss of bone density"]
+    },
+    "rickets": {
+        "description": "Rickets - Medical Information",
+        "treatment": "Vitamin D and calcium supplementation.",
+        "medications": "Vitamin D (1000-5000 IU daily).",
+        "seekAttention": ["Softening and weakening of bones in children", "Caused by Vitamin D deficiency"]
+    },
+    "paget's disease": {
+        "description": "Paget's Disease of Bone - Medical Information",
+        "treatment": "Bisphosphonates.",
+        "medications": "Alendronate (40 mg daily for 6 months).",
+        "seekAttention": ["Disrupts bone remodeling", "Can cause bone pain and fractures"]
+    },
+    "seizure disorders": {
+        "description": "Seizure Disorders - Medical Information",
+        "treatment": "Anticonvulsant medications.",
+        "medications": "Levetiracetam (500-1500 mg twice daily).",
+        "seekAttention": ["A single seizure does not mean a person has epilepsy", "Requires a specialist (neurologist)"]
+    },
+    "epilepsy": {
+        "description": "Epilepsy - Medical Information",
+        "treatment": "Antiepileptic drugs, surgery.",
+        "medications": "Carbamazepine, Valproic acid.",
+        "seekAttention": ["Characterized by recurrent, unprovoked seizures", "Requires ongoing medical management"]
+    },
+    "migraine": {
+        "description": "Migraine - Medical Information",
+        "treatment": "Pain relievers, triptans for acute attacks; preventatives for chronic.",
+        "medications": "Sumatriptan (25-100 mg at onset of attack).",
+        "seekAttention": ["May be preceded by an aura", "Severe headache with nausea/vomiting"]
+    },
+    "tension headache": {
+        "description": "Tension Headache - Medical Information",
+        "treatment": "Over-the-counter pain relievers, stress management.",
+        "medications": "Ibuprofen (400 mg as needed).",
+        "seekAttention": ["Most common type of headache", "Band-like pressure around the head"]
+    },
+    "cluster headache": {
+        "description": "Cluster Headache - Medical Information",
+        "treatment": "Oxygen therapy, triptans.",
+        "medications": "Sumatriptan (6 mg subcutaneous injection).",
+        "seekAttention": ["Characterized by severe, stabbing pain around one eye", "Often occurs in clusters"]
+    },
+    "parkinson's disease": {
+        "description": "Parkinson's Disease - Medical Information",
+        "treatment": "Medications to increase dopamine levels.",
+        "medications": "Levodopa/Carbidopa (25/100 mg 3 times daily).",
+        "seekAttention": ["Progressive neurological disorder", "Tremors, rigidity, and slow movement"]
+    },
+    "alzheimer's disease": {
+        "description": "Alzheimer's Disease - Medical Information",
+        "treatment": "Cognitive-enhancing medications.",
+        "medications": "Donepezil (5-10 mg daily).",
+        "seekAttention": ["Progressive decline in memory and thinking", "Requires a caregiver's support"]
+    },
+    "multiple sclerosis": {
+        "description": "Multiple Sclerosis (MS) - Medical Information",
+        "treatment": "Immunomodulatory drugs to slow progression.",
+        "medications": "Interferon beta-1a.",
+        "seekAttention": ["Autoimmune disease of the central nervous system", "Symptoms vary widely"]
+    },
+    "amyotrophic lateral sclerosis": {
+        "description": "Amyotrophic Lateral Sclerosis (ALS) - Medical Information",
+        "treatment": "Supportive care; Riluzole may slow progression.",
+        "medications": "Riluzole (50 mg twice daily).",
+        "seekAttention": ["Progressive neurodegenerative disease", "Muscle weakness, twitching, paralysis"]
+    },
+    "stroke": {
+        "description": "Stroke - Medical Information",
+        "treatment": "Emergency treatment depends on the type (ischemic or hemorrhagic).",
+        "medications": "Tissue plasminogen activator (tPA) for ischemic stroke.",
+        "seekAttention": ["Recognize the FAST signs (Face drooping, Arm weakness, Speech difficulty, Time to call 911)", "Medical emergency"]
+    },
+    "transient ischemic attack": {
+        "description": "Transient Ischemic Attack (TIA) - Medical Information",
+        "treatment": "Aspirin or other antiplatelet drugs to prevent a full stroke.",
+        "medications": "Aspirin (81 mg daily).",
+        "seekAttention": ["Mini-stroke that serves as a warning sign for a future stroke", "Seek immediate medical attention"]
+    },
+    "meningitis": {
+        "description": "Meningitis - Medical Information",
+        "treatment": "Antibiotics for bacterial meningitis; supportive care for viral.",
+        "medications": "Ceftriaxone (2g IV every 12 hours).",
+        "seekAttention": ["This is a medical emergency", "High fever, stiff neck, severe headache"]
+    },
+    "encephalitis": {
+        "description": "Encephalitis - Medical Information",
+        "treatment": "Antivirals for herpes simplex encephalitis; supportive care.",
+        "medications": "Acyclovir (10 mg/kg IV every 8 hours).",
+        "seekAttention": ["Inflammation of the brain", "Fever, headache, confusion"]
+    },
+    "urinary tract infection": {
+        "description": "Urinary Tract Infection (UTI) - Medical Information",
+        "treatment": "Antibiotics.",
+        "medications": "Trimethoprim/sulfamethoxazole (1 tablet twice daily for 3 days).",
+        "seekAttention": ["Increased risk of kidney infection if left untreated", "Painful urination, frequent urge to urinate"]
+    },
+    "kidney stones": {
+        "description": "Kidney Stones - Medical Information",
+        "treatment": "Pain relief, increased fluid intake, medical procedures (lithotripsy) for large stones.",
+        "medications": "Ibuprofen (400-600 mg every 6-8 hrs).",
+        "seekAttention": ["Severe pain in the back or side", "Bloody or cloudy urine"]
+    },
+    "chronic kidney disease": {
+        "description": "Chronic Kidney Disease (CKD) - Medical Information",
+        "treatment": "Management of underlying cause (e.g., diabetes, hypertension), diet modification, dialysis.",
+        "medications": "ACE inhibitors to protect kidneys.",
+        "seekAttention": ["Progressive loss of kidney function", "Early symptoms may be subtle"]
+    },
+    "renal failure": {
+        "description": "Renal Failure - Medical Information",
+        "treatment": "Dialysis or kidney transplant.",
+        "medications": "Varies based on symptoms.",
+        "seekAttention": ["This is a medical emergency", "Decreased or no urine output"]
+    },
+    "glaucoma": {
+        "description": "Glaucoma - Medical Information",
+        "treatment": "Eye drops to reduce eye pressure, laser therapy, surgery.",
+        "medications": "Latanoprost (1 drop nightly).",
+        "seekAttention": ["Progressive damage to the optic nerve", "Often no early symptoms; requires regular eye exams"]
+    },
+    "cataracts": {
+        "description": "Cataracts - Medical Information",
+        "treatment": "Surgical removal of the cloudy lens.",
+        "medications": "No medication can cure it.",
+        "seekAttention": ["Cloudy or blurry vision", "Most common cause of blindness worldwide"]
+    },
+    "macular degeneration": {
+        "description": "Macular Degeneration - Medical Information",
+        "treatment": "Diet, nutritional supplements, medications, laser therapy.",
+        "medications": "Bevacizumab (injections for wet AMD).",
+        "seekAttention": ["Loss of central vision", "Leading cause of vision loss in the elderly"]
+    },
+    "retinopathy": {
+        "description": "Retinopathy - Medical Information",
+        "treatment": "Strict blood sugar and blood pressure control; laser surgery.",
+        "medications": "Varies by cause.",
+        "seekAttention": ["Damage to the retina caused by diabetes or hypertension", "Early detection is key to preventing blindness"]
+    },
+    "otitis media": {
+        "description": "Otitis Media (Middle Ear Infection) - Medical Information",
+        "treatment": "Antibiotics; pain relief.",
+        "medications": "Amoxicillin (500 mg every 8 hrs).",
+        "seekAttention": ["Ear pain, fever, fluid drainage from the ear"]
+    },
+    "tinnitus": {
+        "description": "Tinnitus - Medical Information",
+        "treatment": "Treating the underlying cause; sound therapy, counseling.",
+        "medications": "None for routine treatment.",
+        "seekAttention": ["Ringing or buzzing in the ears", "Can be a side effect of certain medications"]
+    },
+    "vertigo": {
+        "description": "Vertigo - Medical Information",
+        "treatment": "Medications to relieve dizziness; physical therapy.",
+        "medications": "Meclizine (12.5-25 mg every 4-6 hrs).",
+        "seekAttention": ["Sensation of spinning or dizziness", "Requires medical evaluation to find the cause"]
+    },
+    "hearing loss": {
+        "description": "Hearing Loss - Medical Information",
+        "treatment": "Hearing aids, cochlear implants, surgery.",
+        "medications": "Varies by cause.",
+        "seekAttention": ["Progressive or sudden hearing loss", "Requires an audiologist's evaluation"]
+    },
+    "appendicitis": {
+        "description": "Appendicitis - Medical Information",
+        "treatment": "Surgical removal of the appendix (appendectomy).",
+        "medications": "Antibiotics may be used pre-surgery.",
+        "seekAttention": ["Abdominal pain, nausea, vomiting", "Requires immediate medical attention"]
+    },
+    "pancreatitis": {
+        "description": "Pancreatitis - Medical Information",
+        "treatment": "Hospitalization, IV fluids, pain relief.",
+        "medications": "Pain relievers (e.g., Hydromorphone).",
+        "seekAttention": ["Severe abdominal pain, often radiating to the back", "Avoid alcohol"]
+    },
+    "hepatitis": {
+        "description": "Hepatitis - Medical Information",
+        "treatment": "Varies by type (A, B, C, etc.).",
+        "medications": "Varies.",
+        "seekAttention": ["Inflammation of the liver", "Jaundice, fatigue, dark urine"]
+    },
+    "cirrhosis": {
+        "description": "Cirrhosis - Medical Information",
+        "treatment": "Managing complications; liver transplant.",
+        "medications": "Diuretics to manage fluid buildup.",
+        "seekAttention": ["Irreversible scarring of the liver", "Abdominal swelling, jaundice"]
+    },
+    "cholecystitis": {
+        "description": "Cholecystitis (Gallbladder Inflammation) - Medical Information",
+        "treatment": "Surgery to remove the gallbladder (cholecystectomy).",
+        "medications": "Antibiotics.",
+        "seekAttention": ["Severe pain in the upper right abdomen", "Often caused by gallstones"]
+    },
+    "gastritis": {
+        "description": "Gastritis - Medical Information",
+        "treatment": "Antacids, proton pump inhibitors (PPIs).",
+        "medications": "Omeprazole (20 mg daily).",
+        "seekAttention": ["Inflammation of the stomach lining", "Abdominal pain, nausea"]
+    },
+    "peptic ulcer disease": {
+        "description": "Peptic Ulcer Disease - Medical Information",
+        "treatment": "Antibiotics for H. pylori infection; PPIs.",
+        "medications": "Amoxicillin and Omeprazole combination.",
+        "seekAttention": ["Pain in the upper abdomen, heartburn", "Bleeding ulcers can be life-threatening"]
+    },
+    "gastroesophageal reflux disease": {
+        "description": "Gastroesophageal Reflux Disease (GERD) - Medical Information",
+        "treatment": "Lifestyle changes, antacids, PPIs.",
+        "medications": "Omeprazole (20 mg daily).",
+        "seekAttention": ["Heartburn, regurgitation", "Can lead to esophageal damage if untreated"]
+    },
+    "irritable bowel syndrome": {
+        "description": "Irritable Bowel Syndrome (IBS) - Medical Information",
+        "treatment": "Diet modification, stress management, medications for symptoms.",
+        "medications": "Loperamide for diarrhea, laxatives for constipation.",
+        "seekAttention": ["Chronic abdominal pain, bloating, diarrhea or constipation", "No specific cure"]
+    },
+    "crohn's disease": {
+        "description": "Crohn's Disease - Medical Information",
+        "treatment": "Immunosuppressants, biologics, surgery.",
+        "medications": "Infliximab (5 mg/kg IV).",
+        "seekAttention": ["Chronic inflammatory bowel disease", "Abdominal pain, diarrhea, weight loss"]
+    },
+    "ulcerative colitis": {
+        "description": "Ulcerative Colitis - Medical Information",
+        "treatment": "Immunosuppressants, biologics, surgery.",
+        "medications": "Mesalamine (2.4-4.8 g daily).",
+        "seekAttention": ["Inflammatory bowel disease of the large intestine", "Bloody diarrhea"]
+    },
+    "celiac disease": {
+        "description": "Celiac Disease - Medical Information",
+        "treatment": "Lifelong adherence to a gluten-free diet.",
+        "medications": "None for routine treatment.",
+        "seekAttention": ["Autoimmune reaction to gluten", "Can cause damage to the small intestine"]
+    },
+    "lactose intolerance": {
+        "description": "Lactose Intolerance - Medical Information",
+        "treatment": "Avoiding lactose; lactase enzyme supplements.",
+        "medications": "Lactase supplements (e.g., Lactaid).",
+        "seekAttention": ["Inability to digest milk sugar", "Bloating, gas, diarrhea after consuming dairy"]
+    },
+    "constipation": {
+        "description": "Constipation - Medical Information",
+        "treatment": "High-fiber diet, increased fluids, exercise, laxatives.",
+        "medications": "Psyllium fiber, Polyethylene glycol.",
+        "seekAttention": ["Difficulty passing stool", "Monitor for signs of a blockage"]
+    },
+    "diarrhea_medical": {
+        "description": "Diarrhea - Medical Information",
+        "treatment": "Fluid replacement; anti-diarrheal medications.",
+        "medications": "Loperamide (2 mg after each loose stool, max 16 mg/day).",
+        "seekAttention": ["Dehydration is a major risk", "Persistent diarrhea or fever requires medical attention"]
+    },
+    "hemorrhoids": {
+        "description": "Hemorrhoids - Medical Information",
+        "treatment": "High-fiber diet, topical creams, warm baths, medical procedures.",
+        "medications": "Hydrocortisone cream.",
+        "seekAttention": ["Swollen veins in the rectum and anus", "Bleeding, pain, itching"]
+    },
+    "anal fissures": {
+        "description": "Anal Fissures - Medical Information",
+        "treatment": "Stool softeners, topical creams, sitz baths.",
+        "medications": "Nitroglycerin ointment.",
+        "seekAttention": ["Tear in the lining of the anus", "Pain with bowel movements, bleeding"]
+    },
+    "urinary incontinence": {
+        "description": "Urinary Incontinence - Medical Information",
+        "treatment": "Kegel exercises, bladder training, medication, surgery.",
+        "medications": "Oxybutynin (5 mg 3 times daily).",
+        "seekAttention": ["Loss of bladder control", "Requires medical evaluation to find the cause"]
+    },
+    "benign prostatic hyperplasia": {
+        "description": "Benign Prostatic Hyperplasia (BPH) - Medical Information",
+        "treatment": "Alpha-blockers, 5-alpha reductase inhibitors, surgery.",
+        "medications": "Tamsulosin (0.4 mg daily).",
+        "seekAttention": ["Enlarged prostate gland", "Difficulty urinating"]
+    },
+    "prostate cancer": {
+        "description": "Prostate Cancer - Medical Information",
+        "treatment": "Varies based on stage: watchful waiting, surgery, radiation, hormonal therapy.",
+        "medications": "Androgen deprivation therapy.",
+        "seekAttention": ["Early stage is often asymptomatic", "Requires a prostate-specific antigen (PSA) test for screening"]
+    },
+    "erectile dysfunction": {
+        "description": "Erectile Dysfunction (ED) - Medical Information",
+        "treatment": "Lifestyle changes, oral medications, other therapies.",
+        "medications": "Sildenafil (Viagra) (50 mg as needed).",
+        "seekAttention": ["Can be a sign of underlying cardiovascular disease", "Requires medical evaluation to find the cause"]
+    },
+    "pcos": {
+        "description": "Polycystic Ovary Syndrome (PCOS) - Medical Information",
+        "treatment": "Lifestyle changes, hormonal birth control, Metformin.",
+        "medications": "Metformin (500-1000 mg twice daily).",
+        "seekAttention": ["Hormonal disorder affecting women of childbearing age", "Irregular periods, cysts on ovaries"]
+    },
+    "endometriosis": {
+        "description": "Endometriosis - Medical Information",
+        "treatment": "Pain relievers, hormonal birth control, surgery.",
+        "medications": "NSAIDs for pain.",
+        "seekAttention": ["Tissue similar to the uterine lining grows outside the uterus", "Severe pelvic pain"]
+    },
+    "yeast infection": {
+        "description": "Yeast Infection (Candidiasis) - Medical Information",
+        "treatment": "Antifungal medications.",
+        "medications": "Fluconazole (150 mg single dose).",
+        "seekAttention": ["Itching, burning, thick white discharge", "Avoid sugar and yeast during treatment"]
+    },
+    "bacterial vaginosis": {
+        "description": "Bacterial Vaginosis - Medical Information",
+        "treatment": "Antibiotics.",
+        "medications": "Metronidazole (500 mg twice daily for 7 days).",
+        "seekAttention": ["Fishy odor, thin gray discharge", "Avoid alcohol while taking Metronidazole"]
+    },
+    "gonorrhea": {
+        "description": "Gonorrhea - Medical Information",
+        "treatment": "Antibiotics.",
+        "medications": "Ceftriaxone (500 mg IM single dose).",
+        "seekAttention": ["Sexually transmitted infection", "Requires treatment to prevent complications"]
+    },
+    "chlamydia": {
+        "description": "Chlamydia - Medical Information",
+        "treatment": "Antibiotics.",
+        "medications": "Azithromycin (1g single dose).",
+        "seekAttention": ["Most common bacterial STI", "Often asymptomatic"]
+    },
+    "syphilis": {
+        "description": "Syphilis - Medical Information",
+        "treatment": "Penicillin injections.",
+        "medications": "Penicillin G (2.4 million units IM single dose).",
+        "seekAttention": ["Can have serious long-term complications if untreated", "Painless sore (chancre) at the site of infection"]
+    },
+    "herpes simplex": {
+        "description": "Herpes Simplex - Medical Information",
+        "treatment": "Antiviral medications to manage outbreaks.",
+        "medications": "Acyclovir (400 mg 3 times daily).",
+        "seekAttention": ["Chronic viral infection", "Cannot be cured"]
+    },
+    "hpv": {
+        "description": "Human Papillomavirus (HPV) - Medical Information",
+        "treatment": "Treatment for warts or precancerous lesions.",
+        "medications": "Imiquimod cream for warts.",
+        "seekAttention": ["Most common viral STI", "Can cause genital warts and cervical cancer"]
+    },
+    "hiv/aids": {
+        "description": "HIV/AIDS - Medical Information",
+        "treatment": "Antiretroviral therapy (ART).",
+        "medications": "Varies based on regimen.",
+        "seekAttention": ["Requires lifelong management", "Weakens the immune system"]
+    },
+    "dermatitis": {
+        "description": "Dermatitis (Eczema) - Medical Information",
+        "treatment": "Moisturizers, topical steroids.",
+        "medications": "Hydrocortisone cream (apply twice daily).",
+        "seekAttention": ["Inflammation of the skin", "Itchy, red, and swollen skin"]
+    },
+    "psoriasis": {
+        "description": "Psoriasis - Medical Information",
+        "treatment": "Topical steroids, light therapy, oral medications.",
+        "medications": "Calcipotriene cream.",
+        "seekAttention": ["Chronic autoimmune disease affecting the skin", "Red, scaly patches"]
+    },
+    "acne": {
+        "description": "Acne - Medical Information",
+        "treatment": "Topical retinoids, antibiotics, oral contraceptives.",
+        "medications": "Benzoyl peroxide cream.",
+        "seekAttention": ["Clogged pores, pimples, blackheads", "Can lead to scarring"]
+    },
+    "rosacea": {
+        "description": "Rosacea - Medical Information",
+        "treatment": "Topical medications, oral antibiotics, laser therapy.",
+        "medications": "Metronidazole gel (apply twice daily).",
+        "seekAttention": ["Facial redness and bumps", "Triggered by hot drinks, spicy food"]
+    },
+    "scabies": {
+        "description": "Scabies - Medical Information",
+        "treatment": "Topical scabicidal creams or lotions.",
+        "medications": "Permethrin cream (apply once).",
+        "seekAttention": ["Intense itching, especially at night", "Highly contagious"]
+    },
+    "pediculosis": {
+        "description": "Pediculosis (Lice) - Medical Information",
+        "treatment": "Medicated shampoos or lotions.",
+        "medications": "Permethrin shampoo.",
+        "seekAttention": ["Lice are a common cause of scalp itching", "Need to treat clothes and bedding as well"]
+    },
+    "ringworm": {
+        "description": "Ringworm (Tinea) - Medical Information",
+        "treatment": "Antifungal creams or oral medications.",
+        "medications": "Clotrimazole cream (apply twice daily).",
+        "seekAttention": ["Red, itchy, circular rash", "Highly contagious"]
+    },
+    "athlete's foot": {
+        "description": "Athlete's Foot (Tinea pedis) - Medical Information",
+        "treatment": "Antifungal creams or powders.",
+        "medications": "Terbinafine cream (apply once daily for 1-2 weeks).",
+        "seekAttention": ["Itching, scaling, redness between toes", "Keep feet dry"]
+    },
+    "jock itch": {
+        "description": "Jock Itch (Tinea cruris) - Medical Information",
+        "treatment": "Antifungal creams or powders.",
+        "medications": "Clotrimazole cream (apply twice daily).",
+        "seekAttention": ["Red, itchy rash in the groin area", "Keep the area dry"]
+    },
+    "candidiasis": {
+        "description": "Candidiasis (Thrush) - Medical Information",
+        "treatment": "Antifungal medications.",
+        "medications": "Nystatin oral suspension.",
+        "seekAttention": ["White patches in the mouth", "Common in infants and people with weakened immune systems"]
+    },
+    "oral thrush": {
+        "description": "Oral Thrush - Medical Information",
+        "treatment": "Antifungal medication.",
+        "medications": "Nystatin (swish and swallow).",
+        "seekAttention": ["White patches on the tongue or inner cheeks", "Keep dentures clean"]
+    },
+    "scurvy": {
+        "description": "Scurvy - Medical Information",
+        "treatment": "Vitamin C supplementation.",
+        "medications": "Ascorbic acid (100-200 mg daily).",
+        "seekAttention": ["Caused by severe Vitamin C deficiency", "Fatigue, joint pain, gum bleeding"]
+    },
+    "rickets": {
+        "description": "Rickets - Medical Information",
+        "treatment": "Vitamin D and calcium supplementation.",
+        "medications": "Vitamin D (1000-5000 IU daily).",
+        "seekAttention": ["Softening and weakening of bones in children", "Caused by Vitamin D deficiency"]
+    },
+    "beriberi": {
+        "description": "Beriberi - Medical Information",
+        "treatment": "Thiamine (Vitamin B1) supplementation.",
+        "medications": "Thiamine (100 mg daily).",
+        "seekAttention": ["Caused by Thiamine deficiency", "Affects the nervous system and heart"]
+    },
+    "pellagra": {
+        "description": "Pellagra - Medical Information",
+        "treatment": "Niacin (Vitamin B3) supplementation.",
+        "medications": "Niacin (300 mg daily).",
+        "seekAttention": ["Caused by Niacin deficiency", "Dermatitis, diarrhea, dementia"]
+    },
+    "night blindness": {
+        "description": "Night Blindness - Medical Information",
+        "treatment": "Vitamin A supplementation.",
+        "medications": "Vitamin A (10,000-20,000 IU daily).",
+        "seekAttention": ["Caused by Vitamin A deficiency", "Difficulty seeing in low light"]
+    },
+    "goiter": {
+        "description": "Goiter - Medical Information",
+        "treatment": "Iodine supplementation if caused by deficiency; treating underlying thyroid issue.",
+        "medications": "Potassium iodide.",
+        "seekAttention": ["Enlarged thyroid gland", "Difficulty swallowing or breathing"]
+    },
+    "kwashiorkor": {
+        "description": "Kwashiorkor - Medical Information",
+        "treatment": "Nutritional rehabilitation with protein and calories.",
+        "medications": "F-100 therapeutic milk.",
+        "seekAttention": ["Severe protein deficiency", "Swollen belly and legs"]
+    },
+    "maramus": {
+        "description": "Marasmus - Medical Information",
+        "treatment": "Nutritional rehabilitation.",
+        "medications": "F-100 therapeutic milk.",
+        "seekAttention": ["Severe malnutrition with muscle wasting", "A medical emergency"]
+    },
+    "anorexia nervosa": {
+        "description": "Anorexia Nervosa - Medical Information",
+        "treatment": "Psychotherapy, nutritional support, hospitalization.",
+        "medications": "None routine.",
+        "seekAttention": ["Life-threatening eating disorder", "Distorted body image"]
+    },
+    "bulimia nervosa": {
+        "description": "Bulimia Nervosa - Medical Information",
+        "treatment": "Psychotherapy, antidepressants.",
+        "medications": "Fluoxetine (Prozac) for bulimia.",
+        "seekAttention": ["Binge-eating followed by purging", "Can lead to severe dental and electrolyte issues"]
+    },
+    "obesity": {
+        "description": "Obesity - Medical Information",
+        "treatment": "Diet, exercise, behavior therapy, medication, surgery.",
+        "medications": "Orlistat, Liraglutide, Semaglutide.",
+        "seekAttention": ["Increases risk for chronic diseases", "Requires a holistic approach"]
+    },
+    "anxiety disorders": {
+        "description": "Anxiety Disorders - Medical Information",
+        "treatment": "Psychotherapy, meditation, medication.",
+        "medications": "Sertraline (Zoloft) (50-200 mg daily), Clonazepam.",
+        "seekAttention": ["Excessive worry, nervousness, panic attacks", "Professional mental health care is crucial"]
+    },
+    "depression": {
+        "description": "Depression - Medical Information",
+        "treatment": "Psychotherapy, antidepressant medications.",
+        "medications": "Sertraline (50-200 mg daily), Fluoxetine.",
+        "seekAttention": ["Persistent sadness, loss of interest", "If you feel suicidal, please seek immediate help"]
+    },
+    "bipolar disorder": {
+        "description": "Bipolar Disorder - Medical Information",
+        "treatment": "Mood stabilizers, psychotherapy.",
+        "medications": "Lithium (300 mg 3 times daily), Valproate.",
+        "seekAttention": ["Mood swings from mania to depression", "Requires lifelong management"]
+    },
+    "schizophrenia": {
+        "description": "Schizophrenia - Medical Information",
+        "treatment": "Antipsychotic medications, psychotherapy.",
+        "medications": "Risperidone (2-6 mg daily).",
+        "seekAttention": ["Chronic mental disorder with delusions and hallucinations", "Requires a psychiatrist's care"]
+    },
+    "ocd": {
+        "description": "Obsessive-Compulsive Disorder (OCD) - Medical Information",
+        "treatment": "Cognitive-behavioral therapy (CBT), medications.",
+        "medications": "Sertraline (50-200 mg daily).",
+        "seekAttention": ["Recurrent unwanted thoughts (obsessions) and repetitive behaviors (compulsions)"]
+    },
+    "ptsd": {
+        "description": "Post-Traumatic Stress Disorder (PTSD) - Medical Information",
+        "treatment": "Psychotherapy, medications.",
+        "medications": "Sertraline (Zoloft) (50-200 mg daily), Paroxetine.",
+        "seekAttention": ["Can develop after a traumatic event", "Flashbacks, nightmares, severe anxiety"]
+    },
+    "insomnia": {
+        "description": "Insomnia - Medical Information",
+        "treatment": "Sleep hygiene, cognitive-behavioral therapy for insomnia (CBT-I), medication.",
+        "medications": "Zolpidem (Ambien) (5-10 mg at bedtime).",
+        "seekAttention": ["Difficulty falling or staying asleep", "Can be a symptom of an underlying condition"]
+    },
+    "headache": {
+        "description": "Headache - Medical Information",
+        "treatment": "Depends on the type. OTC pain relievers for tension headaches.",
+        "medications": "Ibuprofen, Acetaminophen.",
+        "seekAttention": ["Sudden, severe headache", "Stiff neck, fever"]
+    },
+    "fever": {
+        "description": "Fever - Medical Information",
+        "treatment": "Hydration, rest, and over-the-counter fever reducers.",
+        "medications": "Acetaminophen (500-1000 mg every 4-6 hrs).",
+        "seekAttention": ["Fever over 103°F (39.4°C)", "Fever lasting more than 3 days"]
+    },
+    "dehydration": {
+        "description": "Dehydration - Medical Information",
+        "treatment": "Fluid and electrolyte replacement.",
+        "medications": "Oral Rehydration Solutions (ORS).",
+        "seekAttention": ["Severe dehydration can be fatal", "Sunken eyes, lack of urine, dizziness"]
+    },
+    "hypotension": {
+        "description": "Hypotension - Medical Information",
+        "treatment": "Increase fluid and salt intake, wear compression stockings.",
+        "medications": "Fludrocortisone, Midodrine (prescription only).",
+        "seekAttention": ["Dizziness or fainting", "Blurred vision", "Rapid or shallow breathing"]
+    },
+    "hypertension": {
+        "description": "Hypertension - Medical Information",
+        "treatment": "Dietary changes, exercise, and medication.",
+        "medications": "Hydrochlorothiazide, Lisinopril, Amlodipine (prescription only).",
+        "seekAttention": ["Severe headaches", "Chest pain", "Difficulty breathing"]
+    },
+    "diarrhea": {
+        "description": "Diarrhea - Medical Information",
+        "treatment": "Rehydration and supportive care.",
+        "medications": "Oral Rehydration Solutions (ORS).",
+        "seekAttention": ["Persistent or bloody diarrhea", "Signs of severe dehydration"]
+    },
+    "vomiting": {
+        "description": "Vomiting - Medical Information",
+        "treatment": "Supportive care, hydration with small sips of fluid.",
+        "medications": "Antiemetics like Ondansetron (4-8 mg every 8 hrs).",
+        "seekAttention": ["Vomiting for more than 24 hours", "Signs of severe dehydration"]
+    },
+    "constipation": {
+        "description": "Constipation - Medical Information",
+        "treatment": "Dietary fiber, fluids, exercise, and laxatives.",
+        "medications": "Psyllium husk (e.g., Metamucil).",
+        "seekAttention": ["Severe abdominal pain", "Inability to pass gas or stool"]
+    },
+    "stomach pain": {
+        "description": "Stomach Pain - Medical Information",
+        "treatment": "Depends on the cause. Over-the-counter antacids for mild cases.",
+        "medications": "Omeprazole (20 mg daily) for acid reflux.",
+        "seekAttention": ["Sudden, severe pain", "Pain with fever or bloody stools"]
+    },
+    "cough": {
+        "description": "Cough - Medical Information",
+        "treatment": "Cough syrup, hydration, and treating the underlying cause.",
+        "medications": "Dextromethorphan (10-20 mg every 4 hrs).",
+        "seekAttention": ["Coughing up blood", "Cough lasting more than 3 weeks"]
+    },
+    "sore throat": {
+        "description": "Sore Throat - Medical Information",
+        "treatment": "Saltwater gargle, lozenges, and pain relievers.",
+        "medications": "Ibuprofen or Acetaminophen.",
+        "seekAttention": ["Severe throat pain", "Difficulty swallowing or breathing"]
+    },
+    "rash": {
+        "description": "Rash - Medical Information",
+        "treatment": "Topical creams, antihistamines.",
+        "medications": "Hydrocortisone cream (1% twice daily).",
+        "seekAttention": ["Widespread rash, fever", "Rash with blisters or severe itching"]
+    },
+    "joint pain": {
+        "description": "Joint Pain - Medical Information",
+        "treatment": "Rest, ice, compression, elevation (R.I.C.E.), pain relievers.",
+        "medications": "Ibuprofen (400-600 mg every 6-8 hrs).",
+        "seekAttention": ["Swollen, red, or hot joints", "Pain that prevents you from using the joint"]
+    },
+    "muscle cramps": {
+        "description": "Muscle Cramps - Medical Information",
+        "treatment": "Stretching, massage, hydration, and electrolyte replacement.",
+        "medications": "Magnesium supplements.",
+        "seekAttention": ["Persistent or severe cramps", "Cramps with numbness or swelling"]
+    },
+    "back pain": {
+        "description": "Back Pain - Medical Information",
+        "treatment": "Rest, ice/heat, physical therapy, and pain relievers.",
+        "medications": "Ibuprofen or Acetaminophen.",
+        "seekAttention": ["Back pain with numbness, weakness, or fever", "Pain that radiates down the leg"]
+    },
+    "chest pain": {
+        "description": "Chest Pain - Medical Information",
+        "treatment": "Depends on the cause. Medical emergency if from the heart.",
+        "medications": "Nitroglycerin for heart-related pain.",
+        "seekAttention": ["This is a medical emergency", "Pain radiating to the arm, neck, or jaw"]
+    },
+    "shortness of breath": {
+        "description": "Shortness of Breath - Medical Information",
+        "treatment": "Depends on the cause. Medical emergency.",
+        "medications": "Inhalers for asthma.",
+        "seekAttention": ["Sudden or severe shortness of breath", "Blue lips or skin"]
+    },
+    "anorexia": {
+        "description": "Anorexia - Medical Information",
+        "treatment": "Treating the underlying cause, nutritional counseling.",
+        "medications": "None routine.",
+        "seekAttention": ["Loss of appetite", "Can be a side effect of medication or a symptom of a serious disease"]
+    },
+    "fatigue": {
+        "description": "Fatigue - Medical Information",
+        "treatment": "Rest, proper diet, and treating the underlying cause.",
+        "medications": "None routine.",
+        "seekAttention": ["Persistent fatigue that interferes with daily life", "Fatigue with other unexplained symptoms"]
+    },
+    "insomnia": {
+        "description": "Insomnia - Medical Information",
+        "treatment": "Sleep hygiene, relaxation techniques, medication.",
+        "medications": "Zolpidem (Ambien) (5-10 mg at bedtime).",
+        "seekAttention": ["Chronic sleep problems", "Daytime fatigue and difficulty concentrating"]
+    },
+    "dizziness": {
+        "description": "Dizziness - Medical Information",
+        "treatment": "Treating the underlying cause.",
+        "medications": "Meclizine (12.5-25 mg every 4-6 hrs).",
+        "seekAttention": ["Sudden onset or severe dizziness", "Dizziness with fainting or severe headache"]
+    },
+    "vertigo": {
+        "description": "Vertigo - Medical Information",
+        "treatment": "Treating the underlying cause.",
+        "medications": "Meclizine (12.5-25 mg every 4-6 hrs).",
+        "seekAttention": ["Sensation of spinning or dizziness", "Requires medical evaluation"]
+    },
+    "nausea": {
+        "description": "Nausea - Medical Information",
+        "treatment": "Small, frequent meals, bland food, hydration.",
+        "medications": "Ondansetron (4-8 mg every 8 hrs).",
+        "seekAttention": ["Persistent nausea or vomiting", "Nausea with severe abdominal pain"]
+    },
+    "vomiting": {
+        "description": "Vomiting - Medical Information",
+        "treatment": "Small sips of fluid, clear liquids, bland diet.",
+        "medications": "Antiemetics like Ondansetron.",
+        "seekAttention": ["Vomiting for more than 24 hours", "Signs of severe dehydration"]
+    },
+    "allergy": {
+        "description": "Allergy - Medical Information",
+        "treatment": "Antihistamines, decongestants, avoiding triggers.",
+        "medications": "Loratadine (10 mg daily), Cetirizine.",
+        "seekAttention": ["Severe allergic reaction (anaphylaxis)", "Difficulty breathing, swelling of the face or throat"]
+    },
+    "asthma": {
+        "description": "Asthma - Medical Information",
+        "treatment": "Inhalers (rescue and controller).",
+        "medications": "Albuterol (rescue inhaler).",
+        "seekAttention": ["Wheezing, coughing, shortness of breath", "Asthma attack that does not respond to rescue inhaler"]
+    },
+    "sinusitis": {
+        "description": "Sinusitis - Medical Information",
+        "treatment": "Nasal rinses, decongestants, antibiotics if bacterial.",
+        "medications": "Pseudoephedrine (30-60 mg every 4-6 hrs).",
+        "seekAttention": ["Facial pain, pressure, congestion", "Symptoms lasting more than 10 days"]
+    },
+    "bronchitis": {
+        "description": "Bronchitis - Medical Information",
+        "treatment": "Rest, fluids, and cough suppressants.",
+        "medications": "Dextromethorphan (10-20 mg every 4 hrs).",
+        "seekAttention": ["Persistent cough with mucus", "Coughing up blood"]
+    },
+    "pneumonia": {
+        "description": "Pneumonia - Medical Information",
+        "treatment": "Antibiotics, rest, fluids.",
+        "medications": "Amoxicillin (500 mg every 8 hrs).",
+        "seekAttention": ["Fever, chills, chest pain, difficulty breathing", "Requires medical attention"]
+    },
+    "diabetes": {
+        "description": "Diabetes - Medical Information",
+        "treatment": "Diet, exercise, medication, and blood sugar monitoring.",
+        "medications": "Metformin (500-1000 mg twice daily).",
+        "seekAttention": ["Excessive thirst, frequent urination, unexplained weight loss", "Requires a doctor's diagnosis"]
+    },
+    "hypertension": {
+        "description": "Hypertension (High Blood Pressure)",
+        "treatment": "Lifestyle changes and medication.",
+        "medications": "Amlodipine (5-10 mg daily).",
+        "seekAttention": ["Often no symptoms", "Requires a doctor's diagnosis and ongoing monitoring"]
+    },
+    "hypotension": {
+        "description": "Hypotension (Low Blood Pressure)",
+        "treatment": "Increased fluid and salt intake, treating underlying cause.",
+        "medications": "Fludrocortisone (prescription only).",
+        "seekAttention": ["Dizziness, fainting, blurred vision", "Requires a doctor's diagnosis"]
+    },
+    "anemia": {
+        "description": "Anemia - Medical Information",
+        "treatment": "Iron or vitamin supplementation, treating the underlying cause.",
+        "medications": "Ferrous sulfate (325 mg daily).",
+        "seekAttention": ["Fatigue, weakness, pale skin", "Requires a blood test for diagnosis"]
+    },
+    "goiter": {
+        "description": "Goiter - Medical Information",
+        "treatment": "Treating the underlying cause.",
+        "medications": "Iodine supplements if deficiency.",
+        "seekAttention": ["Enlarged thyroid gland in the neck", "Requires a doctor's evaluation"]
+    },
+    "gout": {
+        "description": "Gout - Medical Information",
+        "treatment": "NSAIDs for acute attacks, allopurinol for prevention.",
+        "medications": "Ibuprofen (400-600 mg every 6-8 hrs).",
+        "seekAttention": ["Sudden, severe pain in a joint (often the big toe)", "Requires a doctor's diagnosis"]
+    },
+    "rheumatoid arthritis": {
+        "description": "Rheumatoid Arthritis (RA) - Medical Information",
+        "treatment": "DMARDs, biologics, physical therapy.",
+        "medications": "Methotrexate (7.5-25 mg weekly).",
+        "seekAttention": ["Symmetric joint pain and swelling", "Requires a rheumatologist's care"]
+    },
+    "lupus": {
+        "description": "Lupus - Medical Information",
+        "treatment": "Corticosteroids, immunosuppressants.",
+        "medications": "Hydroxychloroquine (200 mg twice daily).",
+        "seekAttention": ["Chronic autoimmune disease", "Butterfly-shaped rash on the face"]
+    },
+    "migraine": {
+        "description": "Migraine - Medical Information",
+        "treatment": "Pain relievers, triptans.",
+        "medications": "Sumatriptan (25-100 mg at onset).",
+        "seekAttention": ["Severe, throbbing headache", "Often with nausea and sensitivity to light/sound"]
+    },
+    "parkinson's disease": {
+        "description": "Parkinson's Disease - Medical Information",
+        "treatment": "Medications to control symptoms.",
+        "medications": "Levodopa/Carbidopa.",
+        "seekAttention": ["Tremors, rigidity, slow movement", "Requires a neurologist's care"]
+    },
+    "alzheimer's disease": {
+        "description": "Alzheimer's Disease - Medical Information",
+        "treatment": "Cognitive-enhancing medications.",
+        "medications": "Donepezil (5-10 mg daily).",
+        "seekAttention": ["Progressive memory loss and cognitive decline", "Requires a neurologist's care"]
+    },
+    "depression": {
+        "description": "Depression - Medical Information",
+        "treatment": "Psychotherapy, antidepressant medications.",
+        "medications": "Sertraline (50-200 mg daily).",
+        "seekAttention": ["Persistent sadness, loss of interest", "If you feel suicidal, please seek immediate help"]
+    },
+    "anxiety disorders": {
+        "description": "Anxiety Disorders - Medical Information",
+        "treatment": "Psychotherapy, medication.",
+        "medications": "Sertraline (50-200 mg daily).",
+        "seekAttention": ["Excessive worry, panic attacks", "Requires a mental health professional"]
+    },
+    "schizophrenia": {
+        "description": "Schizophrenia - Medical Information",
+        "treatment": "Antipsychotic medications, psychotherapy.",
+        "medications": "Risperidone (2-6 mg daily).",
+        "seekAttention": ["Delusions, hallucinations", "Requires a psychiatrist's care"]
+    },
+    "obesity": {
+        "description": "Obesity - Medical Information",
+        "treatment": "Lifestyle changes, medication, surgery.",
+        "medications": "Orlistat.",
+        "seekAttention": ["High BMI, risk of chronic diseases", "Requires a holistic approach"]
+    },
+    "anorexia nervosa": {
+        "description": "Anorexia Nervosa - Medical Information",
+        "treatment": "Psychotherapy, nutritional support, hospitalization.",
+        "medications": "None routine.",
+        "seekAttention": ["Extreme low body weight", "Life-threatening"]
+    },
+    "bulimia nervosa": {
+        "description": "Bulimia Nervosa - Medical Information",
+        "treatment": "Psychotherapy, antidepressants.",
+        "medications": "Fluoxetine (Prozac).",
+        "seekAttention": ["Binge-eating and purging", "Requires professional help"]
+    },
+    "sleep apnea": {
+        "description": "Sleep Apnea - Medical Information",
+        "treatment": "CPAP machine, weight loss, surgery.",
+        "medications": "None routine.",
+        "seekAttention": ["Pauses in breathing during sleep", "Requires a sleep study for diagnosis"]
+    },
+    "insomnia": {
+        "description": "Insomnia - Medical Information",
+        "treatment": "Sleep hygiene, CBT-I, medication.",
+        "medications": "Zolpidem (Ambien).",
+        "seekAttention": ["Chronic sleep problems", "Can be a symptom of an underlying condition"]
+    },
+    "cataracts": {
+        "description": "Cataracts - Medical Information",
+        "treatment": "Surgical removal of the cloudy lens.",
+        "medications": "No medication.",
+        "seekAttention": ["Cloudy vision", "Requires a doctor's evaluation"]
+    },
+    "glaucoma": {
+        "description": "Glaucoma - Medical Information",
+        "treatment": "Eye drops, laser therapy, surgery.",
+        "medications": "Latanoprost (1 drop nightly).",
+        "seekAttention": ["Increased eye pressure, can lead to blindness", "Often no early symptoms"]
+    },
+    "macular degeneration": {
+        "description": "Macular Degeneration - Medical Information",
+        "treatment": "Supplements, laser therapy, injections.",
+        "medications": "Bevacizumab.",
+        "seekAttention": ["Loss of central vision", "Requires a doctor's evaluation"]
+    },
+    "urinary tract infection": {
+        "description": "Urinary Tract Infection (UTI) - Medical Information",
+        "treatment": "Antibiotics.",
+        "medications": "Trimethoprim/sulfamethoxazole.",
+        "seekAttention": ["Painful urination, frequent urge to urinate", "Can lead to a kidney infection"]
+    },
+    "kidney stones": {
+        "description": "Kidney Stones - Medical Information",
+        "treatment": "Pain relief, fluids, medical procedures.",
+        "medications": "Ibuprofen.",
+        "seekAttention": ["Severe pain in the back or side", "Bloody urine"]
+    },
+    "chronic kidney disease": {
+        "description": "Chronic Kidney Disease (CKD) - Medical Information",
+        "treatment": "Managing underlying cause, diet, dialysis.",
+        "medications": "ACE inhibitors.",
+        "seekAttention": ["Progressive loss of kidney function", "Requires a doctor's care"]
+    },
+    "prostate cancer": {
+        "description": "Prostate Cancer - Medical Information",
+        "treatment": "Watchful waiting, surgery, radiation.",
+        "medications": "Hormonal therapy.",
+        "seekAttention": ["Early stage is often asymptomatic", "Requires a doctor's evaluation"]
+    },
+    "erectile dysfunction": {
+        "description": "Erectile Dysfunction (ED) - Medical Information",
+        "treatment": "Lifestyle changes, medication.",
+        "medications": "Sildenafil (Viagra).",
+        "seekAttention": ["Can be a sign of underlying health issues", "Requires a doctor's evaluation"]
+    },
+    "pcos": {
+        "description": "Polycystic Ovary Syndrome (PCOS) - Medical Information",
+        "treatment": "Lifestyle changes, hormonal birth control, Metformin.",
+        "medications": "Metformin.",
+        "seekAttention": ["Hormonal disorder affecting women", "Irregular periods, cysts on ovaries"]
+    },
+    "endometriosis": {
+        "description": "Endometriosis - Medical Information",
+        "treatment": "Pain relievers, hormonal birth control, surgery.",
+        "medications": "NSAIDs.",
+        "seekAttention": ["Severe pelvic pain", "Requires a doctor's diagnosis"]
+    },
+    "yeast infection": {
+        "description": "Yeast Infection - Medical Information",
+        "treatment": "Antifungal medications.",
+        "medications": "Fluconazole (150 mg single dose).",
+        "seekAttention": ["Itching, burning, thick white discharge", "Over-the-counter creams can also be used"]
+    },
+    "gonorrhea": {
+        "description": "Gonorrhea - Medical Information",
+        "treatment": "Antibiotics.",
+        "medications": "Ceftriaxone.",
+        "seekAttention": ["Sexually transmitted infection", "Requires a doctor's diagnosis and treatment"]
+    },
+    "chlamydia": {
+        "description": "Chlamydia - Medical Information",
+        "treatment": "Antibiotics.",
+        "medications": "Azithromycin (1g single dose).",
+        "seekAttention": ["Most common bacterial STI", "Often asymptomatic"]
+    },
+    "syphilis": {
+        "description": "Syphilis - Medical Information",
+        "treatment": "Penicillin.",
+        "medications": "Penicillin G.",
+        "seekAttention": ["Can have serious long-term complications", "Requires a doctor's diagnosis"]
+    },
+    "herpes simplex": {
+        "description": "Herpes Simplex - Medical Information",
+        "treatment": "Antiviral medications to manage outbreaks.",
+        "medications": "Acyclovir.",
+        "seekAttention": ["Chronic viral infection", "Cannot be cured, but symptoms can be managed"]
+    },
+    "hiv/aids": {
+        "description": "HIV/AIDS - Medical Information",
+        "treatment": "Antiretroviral therapy (ART).",
+        "medications": "Varies by regimen.",
+        "seekAttention": ["Weakens the immune system", "Requires lifelong medical management"]
+    },
+    "dermatitis": {
+        "description": "Dermatitis - Medical Information",
+        "treatment": "Moisturizers, topical steroids.",
+        "medications": "Hydrocortisone cream.",
+        "seekAttention": ["Inflammation of the skin", "Itchy, red skin"]
+    },
+    "psoriasis": {
+        "description": "Psoriasis - Medical Information",
+        "treatment": "Topical steroids, light therapy, oral medications.",
+        "medications": "Calcipotriene cream.",
+        "seekAttention": ["Autoimmune disease of the skin", "Red, scaly patches"]
+    },
+    "acne": {
+        "description": "Acne - Medical Information",
+        "treatment": "Topical retinoids, antibiotics.",
+        "medications": "Benzoyl peroxide cream.",
+        "seekAttention": ["Clogged pores, pimples", "Can lead to scarring"]
+    },
+    "ringworm": {
+        "description": "Ringworm - Medical Information",
+        "treatment": "Antifungal creams.",
+        "medications": "Clotrimazole cream.",
+        "seekAttention": ["Red, itchy, circular rash", "Highly contagious"]
+    },
+    "athlete's foot": {
+        "description": "Athlete's Foot - Medical Information",
+        "treatment": "Antifungal creams.",
+        "medications": "Terbinafine cream.",
+        "seekAttention": ["Itching, scaling between toes", "Keep feet dry"]
+    },
+    "jock itch": {
+        "description": "Jock Itch - Medical Information",
+        "treatment": "Antifungal creams.",
+        "medications": "Clotrimazole cream.",
+        "seekAttention": ["Itchy rash in the groin area", "Keep the area dry"]
+    },
+    "chickenpox": {
+        "description": "Chickenpox - Medical Information",
+        "treatment": "Supportive care, pain relievers.",
+        "medications": "Acyclovir for high-risk individuals.",
+        "seekAttention": ["Itchy blister-like rash", "Requires a doctor's care"]
+    },
+    "measles": {
+        "description": "Measles - Medical Information",
+        "treatment": "Supportive care, Vitamin A.",
+        "medications": "Vitamin A (200,000 IU).",
+        "seekAttention": ["Highly contagious", "High fever, rash"]
+    },
+    "mumps": {
+        "description": "Mumps - Medical Information",
+        "treatment": "Supportive care, pain relief.",
+        "medications": "No specific medication.",
+        "seekAttention": ["Swollen salivary glands", "Requires a doctor's care"]
+    },
+    "rubella": {
+        "description": "Rubella - Medical Information",
+        "treatment": "Supportive care.",
+        "medications": "No specific medication.",
+        "seekAttention": ["Dangerous for pregnant women", "Mild fever, rash"]
+    },
+    "malaria": {
+        "description": "Malaria - Medical Information",
+        "treatment": "Antimalarial drugs.",
+        "medications": "Chloroquine, Artemisinin-based therapy.",
+        "seekAttention": ["High fever, chills, sweating", "Requires immediate medical attention"]
+    },
+    "dengue": {
+        "description": "Dengue Fever - Medical Information",
+        "treatment": "Supportive care, hydration.",
+        "medications": "Acetaminophen for pain.",
+        "seekAttention": ["High fever, severe headache, joint pain", "Avoid aspirin"]
+    },
+    "chikungunya": {
+        "description": "Chikungunya - Medical Information",
+        "treatment": "Pain relief, supportive care.",
+        "medications": "Acetaminophen.",
+        "seekAttention": ["Severe joint pain", "Chronic arthritis is possible"]
+    },
+    "typhoid_alt": {
+        "description": "Typhoid Fever - Medical Information",
+        "treatment": "Antibiotics, hydration.",
+        "medications": "Ciprofloxacin, Azithromycin.",
+        "seekAttention": ["Persistent high fever", "Requires a doctor's care"]
+    },
+    "hepatitis": {
+        "description": "Hepatitis - Medical Information",
+        "treatment": "Depends on the type. Antivirals for B and C.",
+        "medications": "Varies by type.",
+        "seekAttention": ["Inflammation of the liver", "Jaundice"]
+    },
+    "cholera": {
+        "description": "Cholera - Medical Information",
+        "treatment": "Immediate rehydration, antibiotics.",
+        "medications": "Doxycycline.",
+        "seekAttention": ["Severe watery diarrhea", "Life-threatening dehydration"]
+    },
+    "diarrhea": {
+        "description": "Diarrhea - Medical Information",
+        "treatment": "Rehydration.",
+        "medications": "Oral Rehydration Solutions (ORS).",
+        "seekAttention": ["Persistent or bloody diarrhea", "Dehydration is a major risk"]
+    },
+    "dysentery": {
+        "description": "Dysentery - Medical Information",
+        "treatment": "Antibiotics, rehydration.",
+        "medications": "Ciprofloxacin.",
+        "seekAttention": ["Bloody stools", "Requires medical attention"]
+    },
+    "food poisoning": {
+        "description": "Food Poisoning - Medical Information",
+        "treatment": "Supportive care, hydration.",
+        "medications": "None routine.",
+        "seekAttention": ["Severe vomiting or diarrhea", "Signs of dehydration"]
+    },
+    "tuberculosis": {
+        "description": "Tuberculosis (TB) - Medical Information",
+        "treatment": "Antibiotics for 6-9 months.",
+        "medications": "Isoniazid, Rifampin.",
+        "seekAttention": ["Persistent cough, weight loss, night sweats", "Requires a doctor's care and isolation"]
+    },
+    "malaria": {
+        "description": "Malaria - Medical Information",
+        "treatment": "Antimalarial drugs.",
+        "medications": "Chloroquine, Artemisinin-based therapy.",
+        "seekAttention": ["High fever, chills, sweating", "Requires immediate medical attention"]
+    },
+    "typhoid": {
+        "description": "Typhoid Fever - Medical Information",
+        "treatment": "Antibiotics, hydration.",
+        "medications": "Ciprofloxacin, Azithromycin.",
+        "seekAttention": ["Persistent high fever", "Requires a doctor's care"]
+    },
+  
+    "cluster headache": {
+        "description": "Cluster Headache - Medical Information",
+        "treatment": "High-flow oxygen, triptan injections.",
+        "medications": "Sumatriptan injection (6 mg subcutaneous).",
+        "seekAttention": [
+            "Causes excruciatingly severe pain",
+            "Occur in cyclical patterns or clusters"
+        ]
+      },
+    "parkinson's disease": {
+        "description": "Parkinson's Disease - Medical Information",
+        "treatment": "Levodopa, dopamine agonists, deep brain stimulation (DBS).",
+        "medications": "Levodopa/Carbidopa (100/25 mg 3-4 times daily).",
+        "seekAttention": [
+            "Progressive neurodegenerative disorder",
+            "Medication side effects like dyskinesia can develop"
+        ]
+    },
+    "alzheimer's disease": {
+        "description": "Alzheimer's Disease - Medical Information",
+        "treatment": "Cholinesterase inhibitors to manage symptoms.",
+        "medications": "Donepezil (5-10 mg nightly).",
+        "seekAttention": [
+            "There is no cure; treatment focuses on slowing progression",
+            "Most common cause of dementia"
+        ]
+    },
+    "multiple sclerosis": {
+        "description": "Multiple Sclerosis (MS) - Medical Information",
+        "treatment": "Disease-modifying therapies (DMTs) to reduce relapses.",
+        "medications": "Interferon beta (dosage varies).",
+        "seekAttention": [
+            "Autoimmune disease that attacks the central nervous system",
+            "Symptoms can include numbness, weakness, and vision problems"
+        ]
+    },
+    "transient ischemic attack": {
+        "description": "Transient Ischemic Attack (TIA) - Medical Information",
+        "treatment": "Antiplatelet drugs to prevent a future stroke.",
+        "medications": "Aspirin (81 mg daily).",
+        "seekAttention": [
+            "A major warning sign of an impending stroke",
+            "Temporary stroke-like symptoms"
+        ]
+    },
+    "peripheral neuropathy": {
+        "description": "Peripheral Neuropathy - Medical Information",
+        "treatment": "Treating the underlying cause; medications for nerve pain.",
+        "medications": "Gabapentin (300 mg 3 times daily).",
+        "seekAttention": [
+            "Increased risk of falls and foot injuries",
+            "Damage to nerves outside the brain and spinal cord"
+        ]
+    },
+    "bell's palsy": {
+        "description": "Bell's Palsy - Medical Information",
+        "treatment": "Corticosteroids and sometimes antiviral medication.",
+        "medications": "Prednisone (60 mg daily for 5 days).",
+        "seekAttention": [
+            "Eye protection (e.g., drops, patch) is crucial to prevent corneal damage",
+            "Sudden weakness in one side of the face"
+        ]
+    },
+    "encephalitis": {
+        "description": "Encephalitis - Medical Information",
+        "treatment": "Antivirals for certain viruses (like herpes), supportive care in hospital.",
+        "medications": "Acyclovir (10 mg/kg IV every 8 hrs for herpes encephalitis).",
+        "seekAttention": [
+            "Can cause seizures and long-term neurological problems",
+            "Inflammation of the brain"
+        ]
+    },
+    "brain tumor": {
+        "description": "Brain Tumor - Medical Information",
+        "treatment": "Surgery, radiation, chemotherapy.",
+        "medications": "Temozolomide (75 mg/m2 daily).",
+        "seekAttention": [
+            "Can cause brain swelling (edema) and increased pressure",
+            "Headaches, seizures, neurological changes"
+        ]
+    },
+    "cerebral palsy": {
+        "description": "Cerebral Palsy - Medical Information",
+        "treatment": "Physical therapy, occupational therapy, medications for muscle spasms.",
+        "medications": "Baclofen (10-20 mg 3 times daily).",
+        "seekAttention": [
+            "A lifelong condition affecting movement and posture",
+            "Caused by brain damage before or during birth"
+        ]
+    },
+    "myasthenia gravis": {
+        "description": "Myasthenia Gravis - Medical Information",
+        "treatment": "Acetylcholinesterase inhibitors, immunosuppressants.",
+        "medications": "Pyridostigmine (60 mg every 4-6 hrs).",
+        "seekAttention": [
+            "A myasthenic crisis can cause severe breathing difficulty and is a medical emergency",
+            "Autoimmune neuromuscular disease"
+        ]
+    },
+    "amyotrophic lateral sclerosis": {
+        "description": "Amyotrophic Lateral Sclerosis (ALS) - Medical Information",
+        "treatment": "Riluzole to slow progression, supportive care.",
+        "medications": "Riluzole (50 mg twice daily).",
+        "seekAttention": [
+            "Progressive disease leading to respiratory failure",
+            "Degeneration of motor neurons"
+        ]
+    },
+    "guillain-barre syndrome": {
+        "description": "Guillain-Barré Syndrome - Medical Information",
+        "treatment": "IVIG (intravenous immunoglobulin) or plasmapheresis.",
+        "medications": "None specific; treatment is supportive.",
+        "seekAttention": [
+            "Can progress rapidly and may require a ventilator to support breathing",
+            "Autoimmune disorder often following an infection"
+        ]
+    },
+    "restless leg syndrome": {
+        "description": "Restless Leg Syndrome - Medical Information",
+        "treatment": "Dopamine agonists, iron supplements if deficient.",
+        "medications": "Pramipexole (0.125 mg nightly).",
+        "seekAttention": [
+            "Can severely disrupt sleep",
+            "Uncontrollable urge to move the legs"
+        ]
+    },
+    "sleep apnea": {
+        "description": "Sleep Apnea - Medical Information",
+        "treatment": "CPAP (Continuous Positive Airway Pressure) machine, weight loss.",
+        "medications": "None.",
+        "seekAttention": [
+            "Increases risk of heart problems and stroke if untreated",
+            "Repeatedly stopping and starting breathing during sleep"
+        ]
+    },
+    "narcolepsy": {
+        "description": "Narcolepsy - Medical Information",
+        "treatment": "Stimulants, sodium oxybate.",
+        "medications": "Modafinil (200 mg in the morning).",
+        "seekAttention": [
+            "Characterized by excessive daytime sleepiness and cataplexy (sudden muscle weakness)",
+            "Chronic neurological condition"
+        ]
+    },
+    "insomnia": {
+        "description": "Insomnia - Medical Information",
+        "treatment": "Cognitive Behavioral Therapy for Insomnia (CBT-I), sleep hygiene, short-term medications.",
+        "medications": "Zolpidem (5-10 mg nightly).",
+        "seekAttention": [
+            "Sleeping pills should only be for short-term use due to risk of dependence",
+            "Difficulty falling or staying asleep"
+        ]
+    },
+    "vertigo": {
+        "description": "Vertigo - Medical Information",
+        "treatment": "Canalith repositioning maneuvers (like the Epley maneuver), medications.",
+        "medications": "Meclizine (25 mg every 6 hrs).",
+        "seekAttention": [
+            "Increases risk of falls, especially in the elderly",
+            "Sensation of spinning"
+        ]
+    },
+    "tinnitus": {
+        "description": "Tinnitus - Medical Information",
+        "treatment": "Therapy to help cope (CBT), masking devices (white noise).",
+        "medications": "None are proven to cure tinnitus.",
+        "seekAttention": [
+            "Can be associated with hearing loss and lead to depression",
+            "Ringing or buzzing in the ears"
+        ]
+    },
+    "chronic kidney disease": {
+        "description": "Chronic Kidney Disease (CKD) - Medical Information",
+        "treatment": "Blood pressure control, managing underlying conditions, dialysis for end-stage disease.",
+        "medications": "ACE inhibitors like Lisinopril (10-40 mg daily).",
+        "seekAttention": [
+            "Progresses to end-stage renal disease (ESRD) if not managed",
+            "Gradual loss of kidney function"
+        ]
+    },
+    "kidney stones": {
+        "description": "Kidney Stones - Medical Information",
+        "treatment": "Hydration to pass small stones, medical procedures (lithotripsy) for larger ones.",
+        "medications": "Tamsulosin (0.4 mg daily) to help pass stones.",
+        "seekAttention": [
+            "Can cause severe pain",
+            "Hard deposits of minerals and salts"
+        ]
+    },
+    "urinary tract infection": {
+        "description": "Urinary Tract Infection (UTI) - Medical Information",
+        "treatment": "Antibiotics.",
+        "medications": "Nitrofurantoin (100 mg twice daily for 5 days).",
+        "seekAttention": [
+            "Can progress to a kidney infection (pyelonephritis) if untreated",
+            "Common infection of the urinary system"
+        ]
+    },
+    "prostate cancer": {
+        "description": "Prostate Cancer - Medical Information",
+        "treatment": "Active surveillance, surgery, radiation.",
+        "medications": "Hormone therapy like Leuprolide (7.5 mg monthly).",
+        "seekAttention": [
+            "PSA screening is used for early detection",
+            "Cancer of the prostate gland"
+        ]
+    },
+    "benign prostatic hyperplasia": {
+        "description": "Benign Prostatic Hyperplasia (BPH) - Medical Information",
+        "treatment": "Alpha-blocker medications.",
+        "medications": "Tamsulosin (0.4 mg daily).",
+        "seekAttention": [
+            "Can lead to urinary retention",
+            "Age-related enlargement of the prostate gland"
+        ]
+    },
+    "erectile dysfunction": {
+        "description": "Erectile Dysfunction - Medical Information",
+        "treatment": "PDE5 inhibitor medications.",
+        "medications": "Sildenafil (50-100 mg as needed).",
+        "seekAttention": [
+            "Priapism (prolonged erection) is a rare but serious side effect",
+            "Inability to get or keep an erection"
+        ]
+    },
+    "varicocele": {
+        "description": "Varicocele - Medical Information",
+        "treatment": "Surgical repair for symptomatic cases or fertility issues.",
+        "medications": "Pain relievers: Ibuprofen (400-600mg) or Acetaminophen (500-1000mg) for discomfort.",
+        "seekAttention": [
+            "A common cause of male infertility",
+            "Enlargement of veins within the scrotum"
+        ]
+    },
+    "testicular torsion": {
+        "description": "Testicular Torsion - Medical Information",
+        "treatment": "Immediate surgical detorsion.",
+        "medications": "None. This is a surgical emergency.",
+        "seekAttention": [
+            "This is a medical emergency requiring immediate surgery to save the testicle",
+            "Twisting of the spermatic cord"
+        ]
+    },
+    "menstrual disorders": {
+        "description": "Menstrual Disorders - Medical Information",
+        "treatment": "Treating the underlying cause; hormonal therapy.",
+        "medications": "Combined oral contraceptives (1 pill daily).",
+        "seekAttention": [
+            "Important to rule out serious underlying causes for any persistent disorder",
+            "Irregular, heavy, or painful periods"
+        ]
+    },
+    "menorrhagia": {
+        "description": "Menorrhagia (Heavy Menstrual Bleeding) - Medical Information",
+        "treatment": "Hormonal therapy, medication to reduce bleeding, or surgery.",
+        "medications": "Tranexamic acid (1-1.5 g, 3-4 times daily during menstruation).",
+        "seekAttention": [
+            "Small risk of thrombosis (blood clots)",
+            "Can lead to anemia if untreated"
+        ]
+    },
+    "dysmenorrhea": {
+        "description": "Dysmenorrhea (Painful Periods) - Medical Information",
+        "treatment": "NSAIDs, hormonal therapy (birth control).",
+        "medications": "Ibuprofen (400-600 mg every 6-8 hrs).",
+        "seekAttention": [
+            "Severe pain should be evaluated for underlying conditions like endometriosis",
+            "Risk of GI bleeding with NSAIDs"
+        ]
+    },
+    "amenorrhea": {
+        "description": "Amenorrhea (Absence of Menstruation) - Medical Information",
+        "treatment": "Treating the underlying cause (e.g., PCOS, stress, low body weight); hormone replacement.",
+        "medications": "Estrogen/progestin therapy (dosage varies).",
+        "seekAttention": [
+            "Should be evaluated for hormonal or structural issues, especially hypothalamic problems",
+            "Absence of periods"
+        ]
+    },
+    "premenstrual syndrome": {
+        "description": "Premenstrual Syndrome (PMS) - Medical Information",
+        "treatment": "Lifestyle changes (diet, exercise), SSRIs for severe symptoms.",
+        "medications": "Fluoxetine (20 mg daily).",
+        "seekAttention": [
+            "If symptoms are severe and debilitating, it may be Premenstrual Dysphoric Disorder (PMDD)",
+            "Physical and emotional symptoms before menstruation"
+        ]
+    },
+    "endometriosis": {
+        "description": "Endometriosis - Medical Information",
+        "treatment": "Pain relief, hormonal therapy, or surgery.",
+        "medications": "GnRH agonists like Leuprolide (3.75 mg monthly).",
+        "seekAttention": [
+            "Significant risk factor for infertility",
+            "Tissue similar to the lining of the uterus grows outside the uterus"
+        ]
+    },
+    "uterine fibroids": {
+        "description": "Uterine Fibroids - Medical Information",
+        "treatment": "Monitoring, medications, or surgery (myomectomy, hysterectomy).",
+        "medications": "Ulipristal acetate (5 mg daily).",
+        "seekAttention": [
+            "Requires liver function monitoring",
+            "Noncancerous growths of the uterus"
+        ]
+    },
+    "ovarian cysts": {
+        "description": "Ovarian Cysts - Medical Information",
+        "treatment": "Observation for functional cysts; surgery if large, persistent, or suspicious.",
+        "medications": "Oral contraceptives can help prevent new cysts.",
+        "seekAttention": [
+            "Risk of rupture or torsion (twisting), which can cause severe pain and is a medical emergency",
+            "Fluid-filled sacs on an ovary"
+        ]
+    },
+    "cervical cancer": {
+        "description": "Cervical Cancer - Medical Information",
+        "treatment": "Surgery, radiation, chemotherapy.",
+        "medications": "Cisplatin (40 mg/m2 weekly).",
+        "seekAttention": [
+            "Regular Pap smears and HPV testing are critical for prevention and early detection",
+            "Caused primarily by HPV infection"
+        ]
+    },
+    "ovarian cancer": {
+        "description": "Ovarian Cancer - Medical Information",
+        "treatment": "Surgery followed by chemotherapy.",
+        "medications": "Carboplatin (dosage varies).",
+        "seekAttention": [
+            "Often detected at a late stage due to vague symptoms",
+            "Genetic screening for BRCA mutations is important for high-risk individuals"
+        ]
+    },
+    "uterine cancer": {
+        "description": "Uterine Cancer - Medical Information",
+        "treatment": "Hysterectomy, radiation.",
+        "medications": "Megestrol (160 mg daily).",
+        "seekAttention": [
+            "Any bleeding after menopause should be evaluated immediately",
+            "Also known as endometrial cancer"
+        ]
+    },
+    "breast cancer": {
+        "description": "Breast Cancer - Medical Information",
+        "treatment": "Surgery, chemotherapy, radiation, hormonal therapy.",
+        "medications": "Tamoxifen (20 mg daily).",
+        "seekAttention": [
+            "Risk of thrombosis (blood clots) with Tamoxifen",
+            "Regular mammograms are key for early detection"
+        ]
+    },
+    "mastitis": {
+        "description": "Mastitis - Medical Information",
+        "treatment": "Antibiotics, continued breastfeeding or pumping.",
+        "medications": "Dicloxacillin (500 mg 4 times daily).",
+        "seekAttention": [
+            "Risk of developing a breast abscess if not treated promptly",
+            "Breast infection, common during breastfeeding"
+        ]
+    },
+    "pelvic inflammatory disease": {
+        "description": "Pelvic Inflammatory Disease (PID) - Medical Information",
+        "treatment": "Antibiotics.",
+        "medications": "Doxycycline (100 mg twice daily) + Ceftriaxone (250 mg IM single dose).",
+        "seekAttention": [
+            "Can lead to infertility and ectopic pregnancy if untreated",
+            "Infection of the female reproductive organs"
+        ]
+    },
+    "yeast infection": {
+        "description": "Yeast Infection (Candidiasis) - Medical Information",
+        "treatment": "Antifungal medications (topical or oral).",
+        "medications": "Fluconazole (150 mg single oral dose).",
+        "seekAttention": [
+            "Requires liver monitoring if used long-term",
+            "Overgrowth of Candida yeast"
+        ]
+    },
+    "bacterial vaginosis": {
+        "description": "Bacterial Vaginosis (BV) - Medical Information",
+        "treatment": "Antibiotics.",
+        "medications": "Metronidazole (500 mg twice daily for 7 days).",
+        "seekAttention": [
+            "Avoid alcohol during and after Metronidazole treatment",
+            "Imbalance of bacteria in the vagina"
+        ]
+    },
+    "sexually transmitted diseases": {
+        "description": "Sexually Transmitted Diseases (STDs) - Medical Information",
+        "treatment": "Antibiotics for bacterial STDs, antivirals for viral STDs.",
+        "medications": "Azithromycin (1 g single dose) for chlamydia.",
+        "seekAttention": [
+            "It is crucial to treat sexual partners to prevent reinfection",
+            "Infections passed through sexual contact"
+        ]
+    },
+    "infertility": {
+        "description": "Infertility - Medical Information",
+        "treatment": "Treating underlying causes, ovulation induction, IVF.",
+        "medications": "Clomiphene (50 mg daily for 5 days).",
+        "seekAttention": [
+            "Risk of multiple pregnancies (twins, triplets)",
+            "Inability to conceive after one year of trying"
+        ]
+    },
+    "arthritis": {
+        "description": "Arthritis - Medical Information",
+        "treatment": "Pain relief, physical therapy, DMARDs for inflammatory types.",
+        "medications": "NSAIDs like Ibuprofen (400 mg as needed).",
+        "seekAttention": [
+            "Can lead to permanent joint damage if not managed",
+            "Joint inflammation"
+        ]
+    },
+    "rheumatoid arthritis": {
+        "description": "Rheumatoid Arthritis - Medical Information",
+        "treatment": "DMARDs (Disease-Modifying Antirheumatic Drugs), biologics.",
+        "medications": "Methotrexate (7.5-20 mg weekly).",
+        "seekAttention": [
+            "Increased risk of infections with treatment",
+            "Requires liver monitoring"
+        ]
+    },
+    "osteoarthritis": {
+        "description": "Osteoarthritis - Medical Information",
+        "treatment": "Exercise, weight loss, pain relief, joint replacement surgery.",
+        "medications": "Acetaminophen (500-1000 mg every 6 hrs).",
+        "seekAttention": [
+            "May require joint replacement for severe cases",
+            "Wear-and-tear arthritis"
+        ]
+    },
+    "gout": {
+        "description": "Gout - Medical Information",
+        "treatment": "Anti-inflammatory drugs for acute attacks; urate-lowering therapy for prevention.",
+        "medications": "Allopurinol (100-300 mg daily).",
+        "seekAttention": [
+            "Can cause kidney stones and joint destruction",
+            "Caused by uric acid crystal buildup"
+        ]
+    },
+    "osteoporosis": {
+        "description": "Osteoporosis - Medical Information",
+        "treatment": "Bisphosphonates, calcium, and vitamin D supplements.",
+        "medications": "Alendronate (70 mg weekly).",
+        "seekAttention": [
+            "High risk of fractures, especially of the hip and spine",
+            "Loss of bone density"
+        ]
+    },
+    "osteomalacia": {
+        "description": "Osteomalacia / Rickets - Medical Information",
+        "treatment": "Vitamin D and calcium supplementation.",
+        "medications": "Vitamin D3 (2000 IU daily).",
+        "seekAttention": [
+            "Causes soft bones in adults (osteomalacia) and bone deformities in children (rickets)",
+            "Caused by severe vitamin D deficiency"
+        ]
+    },
+    "scoliosis": {
+        "description": "Scoliosis - Medical Information",
+        "treatment": "Observation, bracing for moderate curves in growing children, surgery for severe curves.",
+        "medications": "None.",
+        "seekAttention": [
+            "Can progress during growth spurts in adolescence",
+            "Sideways curvature of the spine"
+        ]
+    },
+    "back pain": {
+        "description": "Back Pain - Medical Information",
+        "treatment": "Physical therapy, pain relief, maintaining activity.",
+        "medications": "Ibuprofen (400-600 mg as needed).",
+        "seekAttention": [
+            "Can become chronic if not managed properly",
+            "Seek immediate care for weakness, numbness, or bladder/bowel issues"
+        ]
+    },
+    "sciatica": {
+        "description": "Sciatica - Medical Information",
+        "treatment": "Physical therapy, anti-inflammatory medications, steroid injections.",
+        "medications": "Prednisone (20-40 mg daily taper).",
+        "seekAttention": [
+            "May require surgery if there is severe weakness or pain",
+            "Pain radiating along the sciatic nerve"
+        ]
+    },
+    "herniated disc": {
+        "description": "Herniated Disc - Medical Information",
+        "treatment": "Physical therapy, pain medication, surgery in some cases.",
+        "medications": "NSAIDs.",
+        "seekAttention": [
+            "Cauda equina syndrome is a rare but serious complication requiring emergency surgery",
+            "Ruptured spinal disc"
+        ]
+    },
+    "fibromyalgia": {
+        "description": "Fibromyalgia - Medical Information",
+        "treatment": "Exercise, stress management, antidepressants.",
+        "medications": "Duloxetine (60 mg daily).",
+        "seekAttention": [
+            "Characterized by widespread pain, fatigue, and sleep problems",
+            "A chronic pain disorder"
+        ]
+    },
+    "carpal tunnel syndrome": {
+        "description": "Carpal Tunnel Syndrome - Medical Information",
+        "treatment": "Wrist splints, steroid injections, surgery.",
+        "medications": "NSAIDs for pain relief.",
+        "seekAttention": [
+            "Can lead to permanent nerve damage and muscle weakness if untreated",
+            "Compression of the median nerve in the wrist"
+        ]
+    },
+    "fractures": {
+        "description": "Fractures (Broken Bones) - Medical Information",
+        "treatment": "Immobilization (cast, splint), or surgery to set the bone.",
+        "medications": "Pain relief as needed.",
+        "seekAttention": [
+            "Risk of non-union (bone not healing) or malunion (healing in a wrong position)",
+            "A break in a bone"
+        ]
+    },
+    "muscular dystrophy": {
+        "description": "Muscular Dystrophy - Medical Information",
+        "treatment": "Supportive care (physical therapy), steroids; gene therapy is an emerging field.",
+        "medications": "Prednisone (0.75 mg/kg daily).",
+        "seekAttention": [
+            "A group of genetic diseases that cause progressive weakness and loss of muscle mass",
+            "Requires genetic counseling"
+        ]
+    },
+    "bone cancer": {
+        "description": "Bone Cancer - Medical Information",
+        "treatment": "Surgery, chemotherapy, radiation.",
+        "medications": "Doxorubicin (dosage varies).",
+        "seekAttention": [
+            "Prognosis can be poor, especially for metastatic disease",
+            "Cancer that begins in a bone"
+        ]
+    },
+    "acne": {
+        "description": "Acne - Medical Information",
+        "treatment": "Topical retinoids, benzoyl peroxide, antibiotics.",
+        "medications": "Benzoyl peroxide (2.5-5% daily).",
+        "seekAttention": [
+            "Can cause permanent scarring if severe",
+            "Common skin condition"
+        ]
+    },
+    "psoriasis": {
+        "description": "Psoriasis - Medical Information",
+        "treatment": "Topical creams, phototherapy, systemic medications (biologics).",
+        "medications": "Methotrexate (7.5-15 mg weekly).",
+        "seekAttention": [
+            "Autoimmune disease that can have flare-ups",
+            "Requires liver monitoring with Methotrexate"
+        ]
+    },
+    "urticaria": {
+        "description": "Urticaria (Hives) - Medical Information",
+        "treatment": "Antihistamines.",
+        "medications": "Cetirizine (10 mg daily).",
+        "seekAttention": [
+            "If accompanied by swelling of the lips/tongue or difficulty breathing, it could be anaphylaxis, a medical emergency",
+            "Itchy welts on the skin"
+        ]
+    },
+    "vitiligo": {
+        "description": "Vitiligo - Medical Information",
+        "treatment": "Topical steroids, phototherapy.",
+        "medications": "Tacrolimus (0.1% ointment twice daily).",
+        "seekAttention": [
+            "Primarily a cosmetic concern, but sun protection is crucial on depigmented skin",
+            "Autoimmune loss of skin color"
+        ]
+    },
+    "alopecia": {
+        "description": "Alopecia - Medical Information",
+        "treatment": "Topical minoxidil, corticosteroid injections.",
+        "medications": "Minoxidil (5% topical twice daily).",
+        "seekAttention": [
+            "Regrowth can be gradual and is not guaranteed",
+            "Hair loss"
+        ]
+    },
+    "fungal infections": {
+        "description": "Fungal Infections (Skin) - Medical Information",
+        "treatment": "Topical or oral antifungal medications.",
+        "medications": "Clotrimazole (1% cream twice daily).",
+        "seekAttention": [
+            "Recurrence is common if the area is not kept clean and dry",
+            "e.g., Ringworm, Athlete's Foot"
+        ]
+    },
+    "scabies": {
+        "description": "Scabies - Medical Information",
+        "treatment": "Permethrin cream.",
+        "medications": "Permethrin (5% cream, single application from neck down).",
+        "seekAttention": [
+            "Highly contagious; all close contacts must be treated simultaneously",
+            "Mite infestation"
+        ]
+    },
+    "warts": {
+        "description": "Warts - Medical Information",
+        "treatment": "Salicylic acid, cryotherapy (freezing).",
+        "medications": "Salicylic acid (17% daily).",
+        "seekAttention": [
+            "Caused by HPV; can spread to other parts of the body",
+            "Benign skin growths"
+        ]
+    },
+    "skin cancer": {
+        "description": "Skin Cancer - Medical Information",
+        "treatment": "Surgery, radiation, topical chemotherapy.",
+        "medications": "Topical Fluorouracil (5% cream twice daily).",
+        "seekAttention": [
+            "Risk of metastasis (spreading), especially with melanoma",
+            "Caused primarily by UV exposure"
+        ]
+    },
+    "melanoma": {
+        "description": "Melanoma - Medical Information",
+        "treatment": "Surgery, immunotherapy, targeted therapy.",
+        "medications": "Pembrolizumab (200 mg IV every 3 weeks).",
+        "seekAttention": [
+            "The most aggressive form of skin cancer",
+            "Monitor moles for changes (ABCDEs)"
+        ]
+    },
+    "sunburn": {
+        "description": "Sunburn - Medical Information",
+        "treatment": "Cooling measures, aloe vera, NSAIDs for pain.",
+        "medications": "Ibuprofen (400 mg as needed).",
+        "seekAttention": [
+            "Repeated sunburns significantly increase the risk of skin cancer",
+            "UV radiation damage"
+        ]
+    },
+    "cataracts": {
+        "description": "Cataracts - Medical Information",
+        "treatment": "Surgical removal of the cloudy lens and replacement with an artificial lens.",
+        "medications": "None.",
+        "seekAttention": [
+            "Can lead to blindness if left untreated",
+            "Clouding of the eye's lens"
+        ]
+    },
+    "glaucoma": {
+        "description": "Glaucoma - Medical Information",
+        "treatment": "Medicated eye drops, laser therapy, or surgery to lower eye pressure.",
+        "medications": "Latanoprost (1 drop nightly).",
+        "seekAttention": [
+            "Can lead to irreversible vision loss if untreated",
+            "Regular eye screening is critical for early detection"
+        ]
+    },
+    "diabetic retinopathy": {
+        "description": "Diabetic Retinopathy - Medical Information",
+        "treatment": "Laser treatment, injections of anti-VEGF medication into the eye.",
+        "medications": "Ranibizumab (0.5 mg monthly injection).",
+        "seekAttention": [
+            "A leading cause of blindness in adults; requires strict blood sugar control",
+            "Damage to the retina from diabetes"
+        ]
+    },
+    "macular degeneration": {
+        "description": "Macular Degeneration - Medical Information",
+        "treatment": "Anti-VEGF injections, specialized vitamin supplements (AREDS2).",
+        "medications": "Aflibercept (2 mg monthly).",
+        "seekAttention": [
+            "Progressive disease that causes loss of central vision",
+            "Age and smoking are major risk factors"
+        ]
+    },
+    "retinal detachment": {
+        "description": "Retinal Detachment - Medical Information",
+        "treatment": "Surgical reattachment (laser, cryopexy, vitrectomy).",
+        "medications": "None.",
+        "seekAttention": [
+            "This is a medical emergency that can lead to permanent vision loss",
+            "Symptoms include floaters, flashes of light, and a curtain-like shadow over your vision"
+        ]
+    },
+    "conjunctivitis": {
+        "description": "Conjunctivitis (Pinkeye) - Medical Information",
+        "treatment": "Antibiotic drops for bacterial; supportive care for viral; antihistamines for allergic.",
+        "medications": "Erythromycin ointment (apply 4 times daily for bacterial).",
+        "seekAttention": [
+            "Bacterial and viral forms are highly contagious",
+            "Inflammation of the conjunctiva"
+        ]
+    },
+    "dry eye": {
+        "description": "Dry Eye Syndrome - Medical Information",
+        "treatment": "Artificial tears, prescription eye drops like cyclosporine.",
+        "medications": "Cyclosporine (0.05% drops twice daily).",
+        "seekAttention": [
+            "Can cause chronic discomfort and damage to the eye's surface",
+            "Inadequate tear production"
+        ]
+    },
+    "corneal ulcer": {
+        "description": "Corneal Ulcer - Medical Information",
+        "treatment": "Intensive antibiotic or antiviral eye drops.",
+        "medications": "Ofloxacin drops (1-2 drops every 4 hrs).",
+        "seekAttention": [
+            "Can cause permanent vision loss or scarring",
+            "An open sore on the cornea"
+        ]
+    },
+    "hearing loss": {
+        "description": "Hearing Loss - Medical Information",
+        "treatment": "Hearing aids, cochlear implants.",
+        "medications": "None.",
+        "seekAttention": [
+            "Sudden hearing loss should be evaluated urgently to screen for tumors or other serious causes",
+            "Caused by age, noise exposure, infections"
+        ]
+    },
+    "otitis media": {
+        "description": "Otitis Media (Middle Ear Infection) - Medical Information",
+        "treatment": "Pain relief; antibiotics if bacterial and persistent.",
+        "medications": "Amoxicillin (500 mg every 8 hrs for 7-10 days).",
+        "seekAttention": [
+            "Chronic or recurrent infections can lead to hearing loss",
+            "Common in children"
+        ]
+    },
+    "otitis externa": {
+        "description": "Otitis Externa (Swimmer's Ear) - Medical Information",
+        "treatment": "Antibiotic/antifungal ear drops.",
+        "medications": "Ciprofloxacin ear drops (2 drops 3 times daily for 7 days).",
+        "seekAttention": [
+            "More likely to become chronic in people with diabetes",
+            "Infection of the outer ear canal"
+        ]
+    },
+    "earwax impaction": {
+        "description": "Earwax Impaction - Medical Information",
+        "treatment": "Softening ear drops, professional irrigation or removal.",
+        "medications": "Carbamide peroxide drops (5-10 drops twice daily).",
+        "seekAttention": [
+            "Improper removal (e.g., with cotton swabs) can cause eardrum perforation",
+            "Excessive buildup of earwax"
+        ]
+    },
+    "meniere's disease": {
+        "description": "Meniere's Disease - Medical Information",
+        "treatment": "Low-salt diet, diuretics, medications for vertigo.",
+        "medications": "Betahistine (16 mg 3 times daily).",
+        "seekAttention": [
+            "Causes sudden, severe attacks of vertigo, tinnitus, and hearing loss",
+            "Inner ear fluid imbalance"
+        ]
+    },
+    "rhinitis": {
+        "description": "Rhinitis - Medical Information",
+        "treatment": "Antihistamines, nasal steroid sprays.",
+        "medications": "Cetirizine (10 mg daily).",
+        "seekAttention": [
+            "Can be allergic or non-allergic; chronic symptoms can impact quality of life",
+            "Inflammation of the nasal passages"
+        ]
+    },
+    "nasal polyps": {
+        "description": "Nasal Polyps - Medical Information",
+        "treatment": "Nasal steroid sprays, oral steroids, or surgery.",
+        "medications": "Fluticasone nasal spray (2 sprays daily).",
+        "seekAttention": [
+            "Tend to recur, especially if underlying allergies or asthma are not controlled",
+            "Noncancerous growths in the nose"
+        ]
+    },
+    "epistaxis": {
+        "description": "Epistaxis (Nosebleeds) - Medical Information",
+        "treatment": "Pinching the nose, nasal packing, or cauterization for severe cases.",
+        "medications": "None for routine treatment.",
+        "seekAttention": [
+            "Severe, persistent, or recurrent nosebleeds require medical evaluation",
+            "Commonly caused by dry air or trauma"
+        ]
+    },
+    "anosmia": {
+        "description": "Anosmia (Loss of Smell) - Medical Information",
+        "treatment": "Treating the underlying cause (if possible), olfactory (smell) training.",
+        "medications": "None specific.",
+        "seekAttention": [
+            "Can be a symptom of infections like COVID-19, nasal polyps, or neurological conditions",
+            "Loss of the sense of smell"
+        ]
+    },
+    "meniere's disease": {
+        "description": "Meniere's Disease - Medical Information",
+        "treatment": "Diuretics, vestibular therapy, surgery",
+        "medications": "Hydrochlorothiazide (25 mg daily). Side Effects: Dizziness",
+        "seekAttention": [
+            "Sudden vertigo",
+            "Hearing loss",
+            "Severe nausea"
+        ]
+    },
+    "acoustic neuroma": {
+        "description": "Acoustic Neuroma - Medical Information",
+        "treatment": "Monitoring, surgery, radiation",
+        "medications": "None routine",
+        "seekAttention": [
+            "Sudden hearing loss",
+            "Balance issues",
+            "Facial numbness"
+        ]
+    },
+    "rhinitis": {
+        "description": "Rhinitis - Medical Information",
+        "treatment": "Antihistamines, nasal corticosteroids",
+        "medications": "Fluticasone (50 mcg spray once daily). Side Effects: Nasal irritation",
+        "seekAttention": [
+            "Severe congestion",
+            "Fever",
+            "Eye symptoms"
+        ]
+    },
+    "nasal polyps": {
+        "description": "Nasal Polyps - Medical Information",
+        "treatment": "Corticosteroid sprays, surgery",
+        "medications": "Budesonide (32 mcg spray twice daily). Side Effects: Nasal irritation",
+        "seekAttention": [
+            "Breathing difficulty",
+            "Persistent congestion",
+            "Facial pain"
+        ]
+    },
+    "deviated nasal septum": {
+        "description": "Deviated Nasal Septum - Medical Information",
+        "treatment": "Decongestants, surgery if severe",
+        "medications": "Oxymetazoline (0.05% spray twice daily for 3 days). Side Effects: Rebound congestion",
+        "seekAttention": [
+            "Severe breathing issues",
+            "Frequent nosebleeds",
+            "Facial pain"
+        ]
+    },
+    "epistaxis nosebleeds": {
+        "description": "Epistaxis (Nosebleeds) - Medical Information",
+        "treatment": "Cauterization, nasal packing, humidification",
+        "medications": "None routine",
+        "seekAttention": [
+            "Bleeding >20 min",
+            "Dizziness",
+            "High blood pressure"
+        ]
+    },
+    "anosmia": {
+        "description": "Anosmia - Medical Information",
+        "treatment": "Treat underlying cause, olfactory training",
+        "medications": "None routine",
+        "seekAttention": [
+            "Sudden loss",
+            "Associated with fever",
+            "Head injury"
+        ]
+    },
+    "snoring": {
+        "description": "Snoring - Medical Information",
+        "treatment": "Lifestyle changes, CPAP, surgery",
+        "medications": "None routine",
+        "seekAttention": [
+            "Pauses in breathing",
+            "Daytime sleepiness",
+            "Loud snoring"
+        ]
+    },
+    "sore throat": {
+        "description": "Sore Throat - Medical Information",
+        "treatment": "Rest, hydration, pain relievers",
+        "medications": "Ibuprofen (200 mg every 6 hrs). Side Effects: Stomach upset",
+        "seekAttention": [
+            "Difficulty swallowing",
+            "Fever >101°F",
+            "Rash"
+        ]
+    },
+    "strep throat": {
+        "description": "Strep Throat - Medical Information",
+        "treatment": "Antibiotics",
+        "medications": "Penicillin V (500 mg twice daily for 10 days). Side Effects: Rash",
+        "seekAttention": [
+            "No improvement after 48 hrs",
+            "Fever",
+            "Swollen glands"
+        ]
+    },
+    "adenoiditis": {
+        "description": "Adenoiditis - Medical Information",
+        "treatment": "Antibiotics, adenoidectomy",
+        "medications": "Amoxicillin (500 mg every 8 hrs). Side Effects: Diarrhea",
+        "seekAttention": [
+            "Breathing difficulty",
+            "Fever",
+            "Ear pain"
+        ]
+    },
+    "voice disorders": {
+        "description": "Voice Disorders - Medical Information",
+        "treatment": "Voice therapy, surgery",
+        "medications": "None routine",
+        "seekAttention": [
+            "Sudden hoarseness",
+            "Pain with speaking",
+            "Breathing issues"
+        ]
+    },
+    "depression": {
+        "description": "Depression - Medical Information",
+        "treatment": "Therapy, antidepressants",
+        "medications": "Sertraline (50-100 mg daily). Side Effects: Nausea, insomnia",
+        "seekAttention": [
+            "Suicidal thoughts",
+            "Severe withdrawal",
+            "No improvement after 6 weeks"
+        ]
+    },
+    "anxiety disorders": {
+        "description": "Anxiety Disorders - Medical Information",
+        "treatment": "Therapy, anxiolytics",
+        "medications": "Lorazepam (1 mg as needed, max 3 mg/day). Side Effects: Drowsiness",
+        "seekAttention": [
+            "Panic attacks",
+            "Suicidal thoughts",
+            "Severe agitation"
+        ]
+    },
+    "panic disorder": {
+        "description": "Panic Disorder - Medical Information",
+        "treatment": "Therapy, SSRIs",
+        "medications": "Fluoxetine (20-40 mg daily). Side Effects: Nausea",
+        "seekAttention": [
+            "Frequent attacks",
+            "Chest pain",
+            "Fainting"
+        ]
+    },
+    "generalized anxiety disorder": {
+        "description": "Generalized Anxiety Disorder - Medical Information",
+        "treatment": "Therapy, SSRIs",
+        "medications": "Escitalopram (10-20 mg daily). Side Effects: Drowsiness",
+        "seekAttention": [
+            "Severe worry",
+            "Panic attacks",
+            "Suicidal thoughts"
+        ]
+    },
+    "social anxiety disorder": {
+        "description": "Social Anxiety Disorder - Medical Information",
+        "treatment": "Therapy, SSRIs",
+        "medications": "Sertraline (50-100 mg daily). Side Effects: Insomnia",
+        "seekAttention": [
+            "Avoidance of social situations",
+            "Panic attacks",
+            "Depression"
+        ]
+    },
+    "obsessive compulsive disorder": {
+        "description": "Obsessive-Compulsive Disorder - Medical Information",
+        "treatment": "Therapy, SSRIs",
+        "medications": "Fluvoxamine (50-150 mg daily). Side Effects: Nausea",
+        "seekAttention": [
+            "Severe compulsions",
+            "Interference with life",
+            "Suicidal thoughts"
+        ]
+    },
+    "post traumatic stress disorder": {
+        "description": "Post-Traumatic Stress Disorder - Medical Information",
+        "treatment": "Therapy, SSRIs",
+        "medications": "Paroxetine (20-40 mg daily). Side Effects: Drowsiness",
+        "seekAttention": [
+            "Flashbacks",
+            "Severe anxiety",
+            "Suicidal thoughts"
+        ]
+    },
+    "bipolar disorder": {
+        "description": "Bipolar Disorder - Medical Information",
+        "treatment": "Mood stabilizers, antipsychotics",
+        "medications": "Lithium (300-600 mg twice daily). Side Effects: Tremors",
+        "seekAttention": [
+            "Mania",
+            "Severe depression",
+            "Suicidal thoughts"
+        ]
+    },
+    "schizophrenia": {
+        "description": "Schizophrenia - Medical Information",
+        "treatment": "Antipsychotics, therapy",
+        "medications": "Risperidone (2-4 mg daily). Side Effects: Weight gain",
+        "seekAttention": [
+            "Hallucinations",
+            "Aggression",
+            "No improvement"
+        ]
+    },
+    "attention deficit hyperactivity disorder": {
+        "description": "Attention Deficit Hyperactivity Disorder - Medical Information",
+        "treatment": "Stimulants, behavioral therapy",
+        "medications": "Methylphenidate (10-20 mg daily). Side Effects: Insomnia",
+        "seekAttention": [
+            "Severe agitation",
+            "Heart palpitations",
+            "No focus improvement"
+        ]
+    },
+    "autism spectrum disorder": {
+        "description": "Autism Spectrum Disorder - Medical Information",
+        "treatment": "Behavioral therapy, supportive care",
+        "medications": "Risperidone (0.5-2 mg daily for irritability). Side Effects: Drowsiness",
+        "seekAttention": [
+            "Aggression",
+            "Self-injury",
+            "Regression"
+        ]
+    },
+    "eating disorders": {
+        "description": "Eating Disorders - Medical Information",
+        "treatment": "Therapy, nutritional counseling",
+        "medications": "Fluoxetine (20-60 mg daily for bulimia). Side Effects: Nausea",
+        "seekAttention": [
+            "Severe weight loss",
+            "Fainting",
+            "Heart issues"
+        ]
+    },
+    "anorexia nervosa": {
+        "description": "Anorexia Nervosa - Medical Information",
+        "treatment": "Therapy, nutritional rehabilitation",
+        "medications": "Olanzapine (2.5-10 mg daily). Side Effects: Weight gain",
+        "seekAttention": [
+            "Extreme weight loss",
+            "Heart rate <50 bpm",
+            "Fainting"
+        ]
+    },
+    "bulimia nervosa": {
+        "description": "Bulimia Nervosa - Medical Information",
+        "treatment": "Therapy, antidepressants",
+        "medications": "Fluoxetine (60 mg daily). Side Effects: Nausea",
+        "seekAttention": [
+            "Severe electrolyte imbalance",
+            "Tooth erosion",
+            "Heart issues"
+        ]
+    },
+    "substance abuse": {
+        "description": "Substance Abuse - Medical Information",
+        "treatment": "Detox, therapy, medication-assisted treatment",
+        "medications": "Naltrexone (50 mg daily). Side Effects: Nausea",
+        "seekAttention": [
+            "Overdose",
+            "Withdrawal seizures",
+            "Hallucinations"
+        ]
+    },
+    "alcohol dependence": {
+        "description": "Alcohol Dependence - Medical Information",
+        "treatment": "Detox, therapy, medication",
+        "medications": "Disulfiram (250 mg daily). Side Effects: Nausea with alcohol",
+        "seekAttention": [
+            "Severe withdrawal",
+            "Delirium tremens",
+            "Seizures"
+        ]
+    },
+    "drug addiction": {
+        "description": "Drug Addiction - Medical Information",
+        "treatment": "Detox, therapy, medication",
+        "medications": "Methadone (20-40 mg daily). Side Effects: Drowsiness",
+        "seekAttention": [
+            "Overdose",
+            "Severe withdrawal",
+            "Psychosis"
+        ]
+    },
+    "personality disorders": {
+        "description": "Personality Disorders - Medical Information",
+        "treatment": "Therapy, symptom management",
+        "medications": "None routine",
+        "seekAttention": [
+            "Self-harm",
+            "Severe mood swings",
+            "Aggression"
+        ]
+    },
+    "borderline personality disorder": {
+        "description": "Borderline Personality Disorder - Medical Information",
+        "treatment": "Therapy, mood stabilizers",
+        "medications": "Lamotrigine (25-200 mg daily). Side Effects: Rash",
+        "seekAttention": [
+            "Self-harm",
+            "Suicidal thoughts",
+            "Severe mood swings"
+        ]
+    },
+    "antisocial personality disorder": {
+        "description": "Antisocial Personality Disorder - Medical Information",
+        "treatment": "Therapy, symptom management",
+        "medications": "None routine",
+        "seekAttention": [
+            "Violence",
+            "Legal issues",
+            "Impulsivity"
+        ]
+    },
+    "anemia": {
+        "description": "Anemia - Medical Information",
+        "treatment": "Iron supplements, treat underlying cause",
+        "medications": "Ferrous sulfate (325 mg daily). Side Effects: Constipation",
+        "seekAttention": [
+            "Severe fatigue",
+            "Shortness of breath",
+            "Pale skin"
+        ]
+    },
+    "iron deficiency anemia": {
+        "description": "Iron Deficiency Anemia - Medical Information",
+        "treatment": "Iron supplements, dietary changes",
+        "medications": "Ferrous gluconate (300 mg daily). Side Effects: Stomach upset",
+        "seekAttention": [
+            "Severe fatigue",
+            "Rapid heartbeat",
+            "Dizziness"
+        ]
+    },
+    "vitamin b12 deficiency": {
+        "description": "Vitamin B12 Deficiency - Medical Information",
+        "treatment": "Vitamin B12 injections, supplements",
+        "medications": "Cyanocobalamin (1000 mcg daily). Side Effects: None significant",
+        "seekAttention": [
+            "Numbness",
+            "Memory loss",
+            "Severe fatigue"
+        ]
+    },
+    "folate deficiency": {
+        "description": "Folate Deficiency - Medical Information",
+        "treatment": "Folic acid supplements",
+        "medications": "Folic acid (1 mg daily). Side Effects: None significant",
+        "seekAttention": [
+            "Severe anemia",
+            "Neurological changes",
+            "Fatigue"
+        ]
+    },
+    "sickle cell disease": {
+        "description": "Sickle Cell Disease - Medical Information",
+        "treatment": "Pain management, hydroxyurea, transfusions",
+        "medications": "Hydroxyurea (15-20 mg/kg daily). Side Effects: Nausea",
+        "seekAttention": [
+            "Severe pain crisis",
+            "Fever",
+            "Shortness of breath"
+        ]
+    },
+    "thalassemia": {
+        "description": "Thalassemia - Medical Information",
+        "treatment": "Blood transfusions, iron chelation",
+        "medications": "Deferasirox (20 mg/kg daily). Side Effects: Nausea",
+        "seekAttention": [
+            "Severe fatigue",
+            "Dark urine",
+            "Heart issues"
+        ]
+    },
+    "hemophilia": {
+        "description": "Hemophilia - Medical Information",
+        "treatment": "Factor replacement therapy",
+        "medications": "Factor VIII (dose varies by weight). Side Effects: Allergic reactions",
+        "seekAttention": [
+            "Severe bleeding",
+            "Joint pain",
+            "Bruising"
+        ]
+    },
+    "thrombocytopenia": {
+        "description": "Thrombocytopenia - Medical Information",
+        "treatment": "Corticosteroids, IVIG, treat cause",
+        "medications": "Prednisone (1 mg/kg daily). Side Effects: Weight gain",
+        "seekAttention": [
+            "Severe bruising",
+            "Bleeding gums",
+            "Blood in urine"
+        ]
+    },
+    "leukemia": {
+        "description": "Leukemia - Medical Information",
+        "treatment": "Chemotherapy, stem cell transplant",
+        "medications": "Cytarabine (100 mg/m² daily). Side Effects: Nausea",
+        "seekAttention": [
+            "Fever",
+            "Easy bruising",
+            "Fatigue"
+        ]
+    },
+    "lymphoma": {
+        "description": "Lymphoma - Medical Information",
+        "treatment": "Chemotherapy, radiation",
+        "medications": "Doxorubicin (40-60 mg/m²). Side Effects: Hair loss",
+        "seekAttention": [
+            "Swollen lymph nodes",
+            "Fever",
+            "Weight loss"
+        ]
+    },
+    "multiple myeloma": {
+        "description": "Multiple Myeloma - Medical Information",
+        "treatment": "Chemotherapy, stem cell transplant",
+        "medications": "Bortezomib (1.3 mg/m² twice weekly). Side Effects: Neuropathy",
+        "seekAttention": [
+            "Bone pain",
+            "Fatigue",
+            "Kidney issues"
+        ]
+    },
+    "polycythemia vera": {
+        "description": "Polycythemia Vera - Medical Information",
+        "treatment": "Phlebotomy, hydroxyurea",
+        "medications": "Hydroxyurea (500-1000 mg daily). Side Effects: Nausea",
+        "seekAttention": [
+            "Severe headache",
+            "Blurred vision",
+      "Clots"
+        ]
+    },
+  "drowning": {
+    "description": "Drowning - Medical Information",
+    "treatment": "Rescue breathing, CPR, hospital care",
+    "medications": "None routine",
+    "seekAttention": [
+      "No breathing",
+      "Unresponsiveness",
+      "Water in lungs"
+    ]
+  },
+  "heat exhaustion": {
+    "description": "Heat Exhaustion - Medical Information",
+    "treatment": "Hydration, cooling, rest",
+    "medications": "None routine",
+    "seekAttention": [
+      "Body temp >101°F",
+      "Confusion",
+      "Fainting"
+    ]
+  },
+  "hypothermia": {
+    "description": "Hypothermia - Medical Information",
+    "treatment": "Rewarming, supportive care",
+    "medications": "None routine",
+    "seekAttention": [
+      "Body temp <95°F",
+      "Shivering stops",
+      "Unconsciousness"
+    ]
+  },
+  "electric shock": {
+    "description": "Electric Shock - Medical Information",
+    "treatment": "CPR if needed, treat burns, hospital care",
+    "medications": "None routine",
+    "seekAttention": [
+      "No pulse",
+      "Burns",
+      "Cardiac arrest"
+    ]
+  },
+  "headaches": {
+    "description": "Headaches - Medical Information",
+    "treatment": "Rest, hydration, pain relievers",
+    "medications": "Ibuprofen (200 mg every 6 hrs). Side Effects: Stomach upset",
+    "seekAttention": [
+      "Sudden severe pain",
+      "Vision loss",
+      "Neurological symptoms"
+    ]
+  },
+  "fatigue": {
+    "description": "Fatigue - Medical Information",
+    "treatment": "Rest, treat underlying cause",
+    "medications": "None routine",
+    "seekAttention": [
+      "Persistent exhaustion",
+      "Fainting",
+      "Shortness of breath"
+    ]
+  },
+  "dizziness": {
+    "description": "Dizziness - Medical Information",
+    "treatment": "Hydration, treat cause, vestibular therapy",
+    "medications": "Meclizine (25 mg every 6 hrs as needed). Side Effects: Drowsiness",
+    "seekAttention": [
+      "Fainting",
+      "Vertigo",
+      "Hearing loss"
+    ]
+  },
+  "nausea": {
+    "description": "Nausea - Medical Information",
+    "treatment": "Hydration, antiemetics, treat cause",
+    "medications": "Ondansetron (4 mg every 8 hrs). Side Effects: Headache",
+    "seekAttention": [
+      "Persistent vomiting",
+      "Dehydration",
+      "Abdominal pain"
+    ]
+  },
+  "vomiting": {
+    "description": "Vomiting - Medical Information",
+    "treatment": "Hydration, antiemetics, treat cause",
+    "medications": "Metoclopramide (10 mg every 6 hrs). Side Effects: Drowsiness",
+    "seekAttention": [
+      "Blood in vomit",
+      "Dehydration",
+      "Severe pain"
+    ]
+  },
+  "constipation": {
+    "description": "Constipation - Medical Information",
+    "treatment": "Dietary fiber, laxatives, hydration",
+    "medications": "Polyethylene glycol (17 g daily). Side Effects: Bloating",
+    "seekAttention": [
+      "No bowel movement for 7 days",
+      "Severe pain",
+      "Blood in stool"
+    ]
+  },
+  "diarrhea": {
+    "description": "Diarrhea - Medical Information",
+    "treatment": "Hydration, antidiarrheals, treat cause",
+    "medications": "Loperamide (4 mg initially, then 2 mg after each loose stool). Side Effects: Constipation",
+    "seekAttention": [
+      "Dehydration",
+      "Blood in stool",
+      "Fever"
+    ]
+  },
+  "abdominal pain": {
+    "description": "Abdominal Pain - Medical Information",
+    "treatment": "Rest, pain relief, treat cause",
+    "medications": "Acetaminophen (500-1000 mg every 6 hrs). Side Effects: Liver toxicity",
+    "seekAttention": [
+      "Severe pain",
+      "Vomiting",
+      "Fever"
+    ]
+  },
+  "chest pain": {
+    "description": "Chest Pain - Medical Information",
+    "treatment": "Rest, nitroglycerin, emergency care",
+    "medications": "Nitroglycerin (0.3 mg sublingual every 5 min x3). Side Effects: Headache",
+    "seekAttention": [
+      "Radiating pain",
+      "Shortness of breath",
+      "Sweating"
+    ]
+  },
+  "shortness of breath": {
+    "description": "Shortness of Breath - Medical Information",
+    "treatment": "Oxygen, bronchodilators, treat cause",
+    "medications": "Albuterol (2 puffs every 4-6 hrs). Side Effects: Tremors",
+    "seekAttention": [
+      "Cyanosis",
+      "Chest pain",
+      "Confusion"
+    ]
+  },
+  "cough": {
+    "description": "Cough - Medical Information",
+    "treatment": "Hydration, cough suppressants, treat cause",
+    "medications": "Dextromethorphan (10-20 mg every 4 hrs). Side Effects: Drowsiness",
+    "seekAttention": [
+      "Blood in cough",
+      "Shortness of breath",
+      "Fever"
+    ]
+  },
+  "fever": {
+    "description": "Fever - Medical Information",
+    "treatment": "Hydration, antipyretics, treat cause",
+    "medications": "Acetaminophen (500-1000 mg every 6 hrs). Side Effects: Liver toxicity",
+    "seekAttention": [
+      "Temp >103°F",
+      "Rash",
+      "Severe headache"
+    ]
+  },
+  "weight loss": {
+    "description": "Weight Loss - Medical Information",
+    "treatment": "Nutritional support, treat underlying cause",
+    "medications": "None routine",
+    "seekAttention": [
+      "Unintentional loss >5% body weight",
+      "Fatigue",
+      "Night sweats"
+    ]
+  },
+  "weight gain": {
+    "description": "Weight Gain - Medical Information",
+    "treatment": "Diet, exercise, treat cause",
+    "medications": "None routine",
+    "seekAttention": [
+      "Rapid gain",
+      "Swelling",
+      "Shortness of breath"
+    ]
+  },
+  "sleep disorders": {
+    "description": "Sleep Disorders - Medical Information",
+    "treatment": "Sleep hygiene, melatonin, CPAP",
+    "medications": "Melatonin (1-3 mg before bed). Side Effects: Drowsiness",
+    "seekAttention": [
+      "Daytime sleepiness",
+      "Breathing pauses",
+      "Insomnia"
+    ]
+  },
+  "stress": {
+    "description": "Stress - Medical Information",
+    "treatment": "Relaxation, therapy, medication if needed",
+    "medications": "Lorazepam (1 mg as needed, max 3 mg/day). Side Effects: Drowsiness",
+    "seekAttention": [
+      "Panic attacks",
+      "Suicidal thoughts",
+      "Severe anxiety"
+    ]
+  },
+  "chronic fatigue": {
+    "description": "Chronic Fatigue - Medical Information",
+    "treatment": "Pacing, therapy, symptom management",
+    "medications": "None routine",
+    "seekAttention": [
+      "Severe exhaustion",
+      "Cognitive decline",
+      "No improvement"
+    ]
+  },
+  "chronic pain": {
+    "description": "Chronic Pain - Medical Information",
+    "treatment": "Pain relievers, physical therapy",
+    "medications": "Tramadol (50-100 mg every 6 hrs). Side Effects: Drowsiness",
+    "seekAttention": [
+      "Severe pain",
+      "Mobility loss",
+      "Depression"
+    ]
+  },
+  "allergies": {
+    "description": "Allergies - Medical Information",
+    "treatment": "Antihistamines, avoidance, immunotherapy",
+    "medications": "Cetirizine (10 mg daily). Side Effects: Drowsiness",
+    "seekAttention": [
+      "Severe rash",
+      "Swelling",
+      "Difficulty breathing"
+    ]
+  },
+  "food allergies": {
+    "description": "Food Allergies - Medical Information",
+    "treatment": "Avoidance, epinephrine for reactions",
+    "medications": "Epinephrine (0.3 mg IM). Side Effects: Tachycardia",
+    "seekAttention": [
+      "Swelling",
+      "Wheezing",
+      "Collapse"
+    ]
+  },
+  "drug allergies": {
+    "description": "Drug Allergies - Medical Information",
+    "treatment": "Avoidance, antihistamines",
+    "medications": "Diphenhydramine (25-50 mg). Side Effects: Drowsiness",
+    "seekAttention": [
+      "Rash",
+      "Swelling",
+      "Anaphylaxis"
+    ]
+  },
+  "seasonal allergies": {
+    "description": "Seasonal Allergies - Medical Information",
+    "treatment": "Antihistamines, nasal sprays",
+    "medications": "Fluticasone (50 mcg spray once daily). Side Effects: Nasal irritation",
+    "seekAttention": [
+      "Severe congestion",
+      "Eye swelling",
+      "Asthma symptoms"
+    ]
+  },
+  "autoimmune disorders": {
+    "description": "Autoimmune Disorders - Medical Information",
+    "treatment": "Immunosuppressants, therapy",
+    "medications": "Prednisone (5-60 mg daily). Side Effects: Weight gain",
+    "seekAttention": [
+      "Severe fatigue",
+      "Joint pain",
+      "Rash"
+    ]
+  },
+  "lupus": {
+    "description": "Lupus - Medical Information",
+    "treatment": "Immunosuppressants, corticosteroids",
+    "medications": "Hydroxychloroquine (200-400 mg daily). Side Effects: Retinopathy",
+    "seekAttention": [
+      "Butterfly rash",
+      "Kidney issues",
+      "Fever"
+    ]
+  },
+  "thyroid disorders": {
+    "description": "Thyroid Disorders - Medical Information",
+    "treatment": "Hormone replacement, antithyroid drugs",
+    "medications": "Levothyroxine (1.6 mcg/kg daily); Methimazole (10-20 mg daily). Side Effects: Palpitations; Rash",
+    "seekAttention": [
+      "Severe fatigue",
+      "Heart palpitations",
+      "Weight changes"
+    ]
+  },
+  "hormonal imbalances": {
+    "description": "Hormonal Imbalances - Medical Information",
+    "treatment": "Hormone therapy, lifestyle changes",
+    "medications": "Estrogen (0.625 mg daily). Side Effects: Nausea",
+    "seekAttention": [
+      "Severe mood swings",
+      "Irregular periods",
+      "Hair loss"
+    ]
+  },
+  "reproductive disorders": {
+    "description": "Reproductive Disorders - Medical Information",
+    "treatment": "Hormone therapy, surgery",
+    "medications": "Clomiphene (50 mg daily for 5 days). Side Effects: Hot flashes",
+    "seekAttention": [
+      "Severe pelvic pain",
+      "Irregular bleeding",
+      "Infertility"
+    ]
+  },
+  "sexual dysfunction": {
+    "description": "Sexual Dysfunction - Medical Information",
+    "treatment": "Therapy, PDE5 inhibitors, hormone therapy",
+    "medications": "Sildenafil (50 mg as needed). Side Effects: Headache",
+    "seekAttention": [
+      "Persistent issues",
+      "Pain",
+      "Emotional distress"
+    ]
+  },
+  "chronic wounds": {
+    "description": "Chronic Wounds - Medical Information",
+    "treatment": "Wound care, debridement, antibiotics",
+    "medications": "Silver sulfadiazine (1% cream daily). Side Effects: Skin irritation",
+    "seekAttention": [
+      "Infection signs",
+      "No healing after 6 weeks",
+      "Fever"
+    ]
+  },
+  "bedsores": {
+    "description": "Bedsores - Medical Information",
+    "treatment": "Pressure relief, wound care",
+    "medications": "None routine",
+    "seekAttention": [
+      "Open sores",
+      "Fever",
+      "Severe pain"
+    ]
+  },
+  "lymphedema": {
+    "description": "Lymphedema - Medical Information",
+    "treatment": "Compression therapy, manual drainage",
+    "medications": "None routine",
+    "seekAttention": [
+      "Severe swelling",
+      "Skin changes",
+      "Infection"
+    ]
+  },
+  "edema": {
+    "description": "Edema - Medical Information",
+    "treatment": "Diuretics, elevation, treat cause",
+    "medications": "Furosemide (20-40 mg daily). Side Effects: Dehydration",
+    "seekAttention": [
+      "Sudden swelling",
+      "Shortness of breath",
+      "Chest pain"
+    ]
+  },
+  "dehydration": {
+    "description": "Dehydration - Medical Information",
+    "treatment": "Oral rehydration, IV fluids",
+    "medications": "None routine",
+    "seekAttention": [
+      "Dry mouth",
+      "No urine for 8 hrs",
+      "Confusion"
+    ]
+  },
+  "electrolyte imbalance": {
+    "description": "Electrolyte Imbalance - Medical Information",
+    "treatment": "Electrolyte replacement, treat cause",
+    "medications": "Potassium chloride (20 mEq daily). Side Effects: Arrhythmias",
+    "seekAttention": [
+      "Muscle cramps",
+      "Irregular heartbeat",
+      "Seizures"
+    ]
+  },
+  "acid base disorders": {
+    "description": "Acid-Base Disorders - Medical Information",
+    "treatment": "Correct pH, treat underlying cause",
+    "medications": "Sodium bicarbonate (1 mEq/kg IV). Side Effects: Alkalosis",
+    "seekAttention": [
+      "Confusion",
+      "Rapid breathing",
+      "Coma"
+    ]
+  },
+  "metabolic disorders": {
+    "description": "Metabolic Disorders - Medical Information",
+    "treatment": "Diet, enzyme replacement, supportive care",
+    "medications": "None routine",
+    "seekAttention": [
+      "Severe fatigue",
+      "Seizures",
+      "Growth issues"
+    ]
+  },
+  "genetic disorders": {
+    "description": "Genetic Disorders - Medical Information",
+    "treatment": "Symptom management, gene therapy",
+    "medications": "None routine",
+    "seekAttention": [
+      "Developmental delay",
+      "Unusual symptoms",
+      "Family history"
+    ]
+  },
+  "rare diseases": {
+    "description": "Rare Diseases - Medical Information",
+    "treatment": "Specialized care, supportive therapy",
+    "medications": "None routine",
+    "seekAttention": [
+      "Unexplained symptoms",
+      "Progressive worsening",
+      "No diagnosis"
+    ]
+  },
+  "idiopathic conditions": {
+    "description": "Idiopathic Conditions - Medical Information",
+    "treatment": "Symptom management, diagnostic workup",
+    "medications": "None routine",
+    "seekAttention": [
+      "Persistent symptoms",
+      "Worsening condition",
+      "No improvement"
+    ]
+  }
+}

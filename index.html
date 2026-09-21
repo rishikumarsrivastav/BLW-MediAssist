@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BLW MediAssist - Your AI Doctor is Always Available</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <style>
+    .suggestion-chip {
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .suggestion-chip:hover {
+      background-color: #dbeafe;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-800">
+  <header class="fixed top-0 left-0 right-0 bg-white shadow-md z-50">
+    <nav class="container mx-auto px-6 py-4 flex items-center justify-between ">
+      <div class="flex items-center space-x-3">
+    <a href="#home" class="flex items-center">
+  <img src="Logo.jpg" alt="BLW MediAssist Logo" class="h-10 w-10 rounded-full object-cover">
+  <span class="ml-3 text-2xl font-bold text-gray-900">BLW MediAssist</span>
+</a>
+</div>
+
+      <div class="hidden md:flex items-center space-x-8">
+        <a href="#home" class="hover:text-blue-600">Home</a>
+        <a href="#features" class="hover:text-blue-600">Features</a>
+        <a href="#about" class="hover:text-blue-600">About</a>
+      </div>
+      <a href="#ai-doctor" onclick="scrollToChat()" class="hidden md:inline-flex bg-blue-600 text-white px-4 py-2 rounded-lg shadow hover:bg-blue-700 transition">AI Doctor</a>
+      <button class="md:hidden text-gray-800" id="mobile-menu-btn" aria-label="Open mobile menu">
+        <i class="fas fa-bars text-2xl"></i>
+      </button>
+    </nav>
+
+    <div class="hidden md:hidden bg-white shadow-lg px-6 py-4" id="mobile-menu">
+      <a href="#home" class="block py-2 hover:text-blue-600">Home</a>
+      <a href="#features" class="block py-2 hover:text-blue-600">Features</a>
+      <a href="#about" class="block py-2 hover:text-blue-600">About</a>
+      <a href="#ai-doctor" onclick="scrollToChat()" class="block py-2 hover:text-blue-600">AI Doctor</a>
+    </div>
+  </header>
+
+  <section id="home" class="pt-32 pb-16 bg-gray-50">
+    <div class="container mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
+      <div class="space-y-6">
+        <span class="font-semibold text-blue-600">Trusted by healthcare professionals worldwide</span>
+        <h1 class="text-5xl md:text-6xl font-bold leading-tight text-gray-900">
+          Your AI Doctor is Always Available.
+        </h1>
+        <p class="text-lg text-gray-600">
+          Get instant medical consultation, symptom analysis, and prescription guidance powered by advanced AI technology and trusted medical databases.
+        </p>
+        <a href="#ai-doctor" onclick="scrollToChat()" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg text-lg shadow hover:bg-blue-700 transition">
+          Start Consultation <i class="fas fa-arrow-right ml-2"></i>
+        </a>
+      </div>
+
+      <div class="text-center">
+        <img src="https://img.freepik.com/premium-photo/futuristic-aienhanced-medicine-pill-artificial-intelligence-advanced-healthcare-treatments_1335075-34400.jpg" 
+             alt="Doctor Consultation" 
+             class="w-full max-w-md mx-auto rounded-2xl shadow-lg transform transition duration-300 hover:scale-105">
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="py-20">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-4xl font-bold mb-12">Specifications</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="p-6 bg-white rounded-xl shadow hover:shadow-lg transition">
+          <i class="fa-solid fa-stethoscope text-4xl text-blue-600 mb-4"></i>
+          <h3 class="text-2xl font-semibold">Symptom Analysis</h3>
+          <p class="text-gray-600 mt-2">Describe your symptoms to get information about potential conditions.</p>
+        </div>
+        <div class="p-6 bg-white rounded-xl shadow hover:shadow-lg transition">
+          <i class="fa-solid fa-pills text-4xl text-blue-600 mb-4"></i>
+          <h3 class="text-2xl font-semibold">Medical Information</h3>
+          <p class="text-gray-600 mt-2">Access details on treatments and medications for common diseases.</p>
+        </div>
+        <div class="p-6 bg-white rounded-xl shadow hover:shadow-lg transition">
+          <i class="fa-solid fa-heart-pulse text-4xl text-blue-600 mb-4"></i>
+          <h3 class="text-2xl font-semibold">Health & Lifestyle Tips</h3>
+          <p class="text-gray-600 mt-2">Personalized recommendations for diet, hydration, and fitness.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="ai-doctor" class="py-20 bg-blue-50">
+    <div class="container mx-auto px-6">
+      <div class="text-center mb-12">
+        <h2 class="text-4xl font-bold mb-4 text-gray-900">Chat with Your AI Medical Assistant</h2>
+        <p class="text-lg text-gray-600">Get information on common health concerns. This is not a replacement for professional medical advice.</p>
+      </div>
+
+      <div class="max-w-3xl mx-auto bg-white rounded-2xl shadow-xl">
+        <div class="p-6">
+          <div class="flex items-center mb-4">
+            <i class="fas fa-robot text-blue-600 text-2xl mr-3"></i>
+            <h3 class="font-semibold text-lg">AI Medical Assistant</h3>
+            <span class="ml-auto text-green-600 text-sm flex items-center">
+              <span class="relative flex h-2 w-2 mr-2">
+                <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                <span class="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
+              </span>
+              Online
+            </span>
+          </div>
+
+          <div class="h-96 overflow-y-auto border p-4 rounded-lg mb-4 bg-gray-50" id="chat-messages">
+            </div>
+
+           <div id="suggestion-chips" class="flex flex-wrap gap-2 mb-4"></div>
+
+          <div class="flex">
+            <input type="text" id="chat-input" placeholder="Search the diseases name " class="flex-1 border rounded-l-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 placeholder-black">
+            <button id="send-btn" class="bg-blue-600 text-white px-5 py-2 rounded-r-lg hover:bg-blue-700 transition" title="Send message" aria-label="Send message">
+              <i class="fas fa-paper-plane" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-4xl font-bold mb-12">Why Trust Us?</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="p-6 bg-white rounded-xl shadow">
+          <i class="fa-solid fa-user-md text-blue-600 text-4xl mb-3"></i>
+          <h3 class="text-xl font-semibold">Certified Doctors</h3>
+          <p class="text-gray-600">All consultations led by medical professionals.</p>
+        </div>
+        <div class="p-6 bg-white rounded-xl shadow">
+          <i class="fa-solid fa-shield text-blue-600 text-4xl mb-3"></i>
+          <h3 class="text-xl font-semibold">Privacy & Security</h3>
+          <p class="text-gray-600">Your health data is confidential and secure.</p>
+        </div>
+        <div class="p-6 bg-white rounded-xl shadow">
+          <i class="fa-solid fa-award text-blue-600 text-4xl mb-3"></i>
+          <h3 class="text-xl font-semibold">Top Ratings</h3>
+          <p class="text-gray-600">Trusted by thousands of satisfied patients.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="about" class="bg-gray-900 text-gray-300 py-12">
+    <div class="container mx-auto px-6 grid md:grid-cols-3 gap-8">
+      <div>
+        <h4 class="text-white font-bold mb-3">BLW MediAssist</h4>
+        <p class="text-sm mb-4">Revolutionizing healthcare through AI technology. Accessible, reliable medical consultation powered by trusted medical databases.</p>
+        <div class="flex space-x-4 text-xl">
+          <a href="#" class="hover:text-blue-500"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="hover:text-blue-400"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="hover:text-blue-300"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div>
+        <h4 class="text-white font-bold mb-3">Quick Links</h4>
+        <ul class="space-y-2 text-sm">
+          <li><a href="#" class="hover:text-blue-400">Privacy Policy</a></li>
+          <li><a href="#" class="hover:text-blue-400">Terms of Service</a></li>
+          <li><a href="#" class="hover:text-blue-400">Medical Disclaimer</a></li>
+          <li><a href="#" class="hover:text-blue-400">Contact Support</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-white font-bold mb-3">Certifications</h4>
+        <p class="text-sm"><i class="fas fa-check-circle text-green-500 mr-2"></i>HIPAA Compliant</p>
+        <p class="text-sm"><i class="fas fa-check-circle text-green-500 mr-2"></i>FDA Guidelines</p>
+        <p class="text-sm"><i class="fas fa-check-circle text-green-500 mr-2"></i>Global Standards</p>
+      </div>
+    </div>
+    <div class="border-t border-gray-700 mt-8 pt-6 text-center text-sm">
+      <p>&copy; 2025 BLW MediAssist. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
