@@ -131,12 +131,6 @@ Open the project
 Open index.html
 ```
 
-Or simply visit the live website:
-
-**https://jokerwor.github.io/BLW-MediAssist/**
-
----
-
 # 💡 Usage
 
 1. Open the application.
