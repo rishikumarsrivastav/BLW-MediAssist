@@ -184,6 +184,6 @@ LinkedIn: *(Add your LinkedIn profile here)*
 
 ### ⭐ If you found this project helpful, don't forget to star the repository!
 
-Made with ❤️ by **Rishi Kumar Srivastav**
+Made by **Rishi Kumar Srivastav**
 
 </div>
